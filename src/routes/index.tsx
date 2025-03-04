@@ -1,15 +1,15 @@
 import { Routes, Route, Navigate } from 'react-router-dom';
-import { Home } from '../pages/home'
-import { Home2 } from '../pages/home2';
+import { DashBoard } from '../pages/DashBoard';
+import { Curriculo } from '../pages/Curriculo';
 
 export const AppRoutes = () => {
   return (
-
     <Routes>
-      <Route path='/Home' element={<Home />} />
-      <Route path='/Home2' element={<Home2 />} />
-      <Route path="*" element={<Navigate to="/Home" />} />
+      <Route path="/DashBoard" element={<DashBoard />}>
+        <Route path="Curriculo" element={<Curriculo />} /> {/* Rota filha */}
+      </Route>
+      <Route path="/" element={<Navigate to="/DashBoard" />} /> {/* Redireciona a raiz para /DashBoard */}
+      <Route path="*" element={<Navigate to="/DashBoard" />} /> {/* Redireciona rotas inexistentes para /DashBoard */}
     </Routes>
-
   );
 }

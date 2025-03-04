@@ -1,0 +1,270 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scrollbar-width: thin;
+}
+
+a {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+:root {
+    /* Fontes */
+    --fonteTitulo: 'Poppins', sans-serif;
+    --fonteTexto: 'Inter', sans-serif;
+
+    /* Paleta de Cores - Fundo */
+    --corPrimaria: #4180ab;
+    /* Azul principal - Elementos de destaque (ex: cabeçalho) */
+    --corSecundaria: #ffffff;
+    /* Branco - Cor de fundo principal */
+    --corTerciaria: #e4ebf0;
+    /* Cinza claro - Áreas secundárias ou texturas */
+    --corQuaternaria: #bdd1de;
+    /* Azul claro - Elementos intermediários ou laterais */
+    --corQuinta: #8ab3cf;
+    /* Azul médio - Detalhes ou links */
+
+    /* Paleta de Cores - Texto */
+    --corTextoPrimario: #203e66;
+    /* Azul escuro - Texto principal */
+    --corTextoSecundario: #444;
+    /* Cinza médio - Texto secundário ou descritivo */
+    --corTextoDestaque: #ffffff;
+    /* Branco - Texto sobre fundo escuro */
+    --corTextoLink: #1a73e8;
+    /* Azul vivo - Links */
+    --corTextoLinkHover: #000000;
+    /* Azul mais escuro - Hover em links */
+
+    /* Paleta de Cores - Botões */
+    --corBotaoPrimario: #0074d9;
+    /* Azul intenso - Botões principais */
+    --corBotaoPrimarioHover: #005bb5;
+    /* Azul mais escuro - Hover para botões principais */
+    --corBotaoSecundario: #f4f4f4;
+    /* Cinza claro - Botões secundários */
+    --corBotaoSecundarioHover: #dcdcdc;
+    /* Cinza mais escuro - Hover para botões secundários */
+
+    /* Paleta de Cores - Feedback */
+    --corSucesso: #28a745;
+    /* Verde - Mensagens de sucesso */
+    --corAviso: #ffc107;
+    /* Amarelo - Avisos */
+    --corErro: #dc3545;
+    /* Vermelho - Mensagens de erro */
+    --corInfo: #17a2b8;
+    /* Azul claro - Mensagens informativas */
+
+    /* Paleta de Cores - Gradientes */
+    --gradientePrimario: linear-gradient(to top, #09203f 0%, #537895 100%);
+    /* Gradiente azul para elementos */
+    --gradienteHover: linear-gradient(to top, #537895 0%, #203e66 100%);
+    /* Gradiente azul mais escuro para hover */
+
+    /* Outras Cores */
+    --corBorda: #d1d9e0;
+    /* Cinza claro - Bordas de separação */
+    --corSombras: rgba(0, 0, 0, 0.2);
+    /* Sombra padrão */
+}
+
+.body {
+    display: grid;
+    grid-template-columns: 10% 1fr 5%;
+    /* Larguras fixas */
+    grid-template-rows: auto auto 1fr auto;
+    grid-template-areas:
+        "cabecalho cabecalho cabecalho"
+        "barraNav barraNav barraNav"
+        "principal lateral lateral2"
+        "footer footer footer";
+    width: 100%;
+    justify-self: center;
+    height: 100%;
+    font-size: 16px;
+    color: var(--corTextoPrimario);
+    font-family: var(--fonteTexto);
+    z-index: 1;
+}
+
+.cabecalho {
+    grid-area: cabecalho;
+    background-color: var(--corPrimaria);
+    padding: 8px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--corTextoDestaque);
+    font-family: var(--fonteTitulo);
+    font-size: 16px;
+
+}
+
+.barraNav {
+    grid-area: barraNav;
+    background-color: var(--corPrimaria);
+    color: var(--corTextoDestaque);
+    padding: 8px 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    left: 0;
+    z-index: 10;
+
+        & .menu{
+            list-style: none;
+            display: flex;
+            grid-gap: 20px;
+            
+            & li a {
+                text-decoration: none;
+                color: var(--corTextoDestaque);
+                font-weight: bold;
+                transition: color 0.3s ease;
+            }
+        }
+}
+
+.principal {
+    grid-area: principal;
+    text-align: center;
+    background-color: var(--corTerciaria);
+    border-right: 1px solid var(--corPrimaria);
+    color: var(--corTextoPrimario);
+    padding-top: 10%;
+}
+
+.lateral {
+    grid-area: lateral;
+    background-color: var(--corQuaternaria);
+    padding: 20px;
+    border-left: 1px solid var(--corPrimaria);
+
+    & h3 {
+        color: var(--corTextoPrimario);
+        font-size: 1.5rem;
+        font-weight: 600;
+        margin-bottom: 10px;
+    }
+
+    & p {
+        color: var(--corTextoSecundario);
+        font-size: 1.2rem;
+        font-weight: 400;
+    }
+}
+
+.footer {
+    grid-area: footer;
+    background-color: var(--corTextoPrimario);
+    color: var(--corTextoDestaque);
+    text-align: center;
+    padding: 10px;
+    grid-row: 6/ -1;
+}
+
+.principal p:nth-child(2n) {
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.logo {
+    width: 32px;
+    height: 32px;
+    object-fit: cover;
+}
+
+.lateral2 {
+    background-color: var(--corTerciaria);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 5px 0;
+}
+
+
+
+
+.auto {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(calc(25% - 20px), calc(35% - 20px)));
+    grid-template-rows: repeat(4, minmax(15rem, auto)
+            /*1fr minmax(10px, 15px) minmax(10px, 20%) ó, se eu quizesse*/
+        );
+    grid-auto-rows: minmax(7rem, 15rem);
+    justify-content: center;
+    gap: 20px;
+    grid-auto-flow: dense;
+    /* justify-items é o eixo horizontal 
+       align-items   é eixo vertical por */
+}
+
+.elementos {
+    display: grid;
+    border: solid 1px black;
+    padding: 10px;
+    margin: 0;
+    text-align: center;
+    font-size: 20px;
+    align-content: start;
+    background-image: var(--gradientePrimario);
+    color: var(--corTextoDestaque);
+    align-items: center;
+}
+
+
+
+.elementos:hover {
+    cursor: pointer;
+    background-image: var(--gradienteHover);
+    color: var(--corTextoDestaque);
+}
+
+.elementos:nth-child(1) {
+    /* grid-column: 1 / span 3;
+grid-row: 1 / span 2; */
+    grid-area: 1/1/3/4;
+    /*Lógica da ordem de 1/1/3/4, início linha, inicio coluna, fim linha, fim coluna.*/
+}
+
+.elementos:nth-child(5) {
+    grid-area: 3/2/5/4;
+}
+
+.elementos:nth-child(12) {
+    grid-area: 5/5/7/-3;
+}
+
+.elementos:nth-child(11) {
+    grid-area: 6/1/7/-3;
+}
+
+.minhaArea,
+.minhaArea li a {
+    display: flex;
+    flex-direction: column;
+    gap: 5px 0;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: var(--corTextoPrimario);
+    font-weight: 500;
+    font-size: 16px;
+    align-items: flex-start;
+    list-style: none;
+}
+
+.minhaArea {
+    max-height: 300px;
+}
+
+*::selection {
+    user-select: none;
+}
