@@ -183,11 +183,12 @@ a {
 }
 
 .lateral2 {
-    background-color: var(--corTerciaria);
+    background-color: var(--corQuaternaria);
     text-align: center;
     display: flex;
     flex-direction: column;
-    gap: 5px 0;
+    gap: 5px;
+    align-items: center;
 }
 
 
@@ -267,4 +268,11 @@ grid-row: 1 / span 2; */
 
 *::selection {
     user-select: none;
+}
+
+.iconesLE{
+    width: 55px;
+    height: 55px;
+    padding: 10px 5px;
+
 }

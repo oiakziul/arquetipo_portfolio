@@ -3,13 +3,14 @@ import { DashBoard } from '../pages/DashBoard';
 import { Curriculo } from '../pages/Curriculo';
 
 export const AppRoutes = () => {
+  const BASE_URL = '/arquetipo_portfolio';
   return (
     <Routes>
-      <Route path="/DashBoard" element={<DashBoard />}>
-        <Route path="Curriculo" element={<Curriculo />} /> {/* Rota filha */}
+      <Route path={`${BASE_URL}`} element={<DashBoard />}>
+        <Route path='Curriculo' element={<Curriculo />} />
       </Route>
-      <Route path="/" element={<Navigate to="/DashBoard" />} /> {/* Redireciona a raiz para /DashBoard */}
-      <Route path="*" element={<Navigate to="/DashBoard" />} /> {/* Redireciona rotas inexistentes para /DashBoard */}
+      <Route path='/' element={<Navigate to={`${BASE_URL}`} />} />
+      <Route path='*' element={<Navigate to={`${BASE_URL}`} />} />
     </Routes>
   );
 }
