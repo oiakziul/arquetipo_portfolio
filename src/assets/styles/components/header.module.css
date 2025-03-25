@@ -1,0 +1,11 @@
+.header  {
+    grid-area: header ;
+    background-color: var(--corPrimaria);
+    padding: 0.5rem 0.9375rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--corTextoDestaque);
+    font-family: var(--fonteTitulo);
+    font-size: 1rem;
+}

@@ -1,0 +1,21 @@
+.corpoCurriculo {
+    height: auto;
+    background-color: var(--corQuaternaria);
+    padding: 0.625rem;
+    width: 100%;
+    overflow-x: hidden;
+    min-height: 100vh;
+}
+
+.imagemCurriculo {
+    display: flex;
+    width: 50%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid rgba(0, 0, 0, 0.264);
+}
+
+.imagemCurriculo:hover {
+    border: 1px solid rgba(0, 0, 0, 0.466);
+}

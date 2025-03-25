@@ -1,0 +1,28 @@
+.navigation {
+    grid-area: navigation;
+    background-color: var(--corPrimaria);
+    color: var(--corTextoDestaque);
+    padding: 0.5rem 0.9375rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    /* position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10; */
+}
+
+.navigation .menu {
+    list-style: none;
+    display: flex;
+    gap: 1.25rem;
+}
+
+.navigation .menu li a {
+    text-decoration: none;
+    color: var(--corTextoDestaque);
+    font-weight: bold;
+    transition: color 0.3s ease;
+}

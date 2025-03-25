@@ -1,0 +1,16 @@
+.corpoTemporario {
+    grid-area: mainContent;
+    height: auto;
+    min-height: 100%;
+    background-color: var(--corQuaternaria);
+    padding: 1.25rem;
+    width: 100%;
+    overflow: hidden;
+}
+.imagemTemporario{
+    display: flex;
+    width: 50%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}

@@ -1,0 +1,61 @@
+.container {
+    background-color: var(--corQuaternaria);
+    cursor: pointer;
+    font-size: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 33px 30px;
+    min-height: 100vh;
+    font-family: "Montserrat", sans-serif; /* Adicionado aqui para garantir que a fonte seja aplicada */
+    color: black;
+}
+  
+  .table {
+    border-spacing: 1;
+    border-collapse: collapse;
+    background: black;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+    margin-top: 20px;
+    position: static;
+  
+  }
+  
+  .table thead th {
+    background-color: #36304a;
+    color: white;
+    text-align: center;
+  }
+  
+  .table th,
+  .table td {
+    border: 1px solid black; /* Removido pois será sobrescrito abaixo */
+    padding: 18px;
+    text-align: center;
+  }
+  
+  .table tr:nth-child(even) {
+    background-color: #ffff;
+  }
+  
+  .table tr:nth-child(odd) {
+    background-color: #eee9e9;
+  }
+  
+  .table tr:hover {
+    background-color: #4158d0;
+    color: white;
+  }
+  
+  .heading {
+    color: #36304a;
+    margin: 15px auto;
+    text-align: center;
+    position: static;
+  }
