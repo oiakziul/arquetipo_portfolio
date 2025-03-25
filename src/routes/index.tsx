@@ -1,4 +1,5 @@
-import { Routes, Route, Navigate } from 'react-router-dom';
+import { Routes, Route} from 'react-router-dom';
+
 import { Curriculo } from '../pages/Curriculo';
 import { Home } from '../pages/Home';
 import { ProjetosFaculdade } from '../pages/ProjetosFaculdade';
@@ -18,9 +19,7 @@ export const AppRoutes = () => {
         <Route path='Temporario' element={<Temporario />} />
         <Route path='GradeCurricular' element={<GradeCurricular />} />
       </Route>
-      
-      <Route path='/' element={<Navigate to={`${BASE_URL}`} />} />
-      <Route path='*' element={<Navigate to={`${BASE_URL}`} />} />
+
     </Routes>
   );
 }

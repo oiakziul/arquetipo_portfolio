@@ -1,314 +1,109 @@
 
 :root {
-    /* Fontes (mantendo as suas) */
-    --fonteTitulo: 'Poppins', sans-serif;
-    --fonteTexto: 'Inter', sans-serif;
+  /* Fontes (mantendo as suas) */
+  --fonteTitulo: 'Poppins', sans-serif;
+  --fonteTexto: 'Inter', sans-serif;
 
-    /* Paleta de Cores - Fundo */
-    --corPrimaria: #121212; /* Preto profundo para o fundo principal */
-    --corSecundaria: #1E1E1E; /* Cinza muito escuro para elementos secundários */
-    --corTerciaria: #282828; /* Cinza escuro para elementos terciários */
-    --corQuaternaria: #333333; /* Cinza médio para elementos quaternários */
-    --corQuinta: #444444; /* Cinza um pouco mais claro para elementos quíntuplos */
+  /* Paleta de Cores - Fundo */
+  --corPrimaria: #121212; /* Preto profundo para o fundo principal */
+  --corSecundaria: #1E1E1E; /* Cinza muito escuro para elementos secundários */
+  --corTerciaria: #282828; /* Cinza escuro para elementos terciários */
+  --corQuaternaria: #333333; /* Cinza médio para elementos quaternários */
+  --corQuinta: #444444; /* Cinza um pouco mais claro para elementos quíntuplos */
 
-    /* Tons de Cinza Claro */
-    --corCinzaClaro: #E0E0E0; /* Cinza claro */
-    --corCinzaMuitoClaro: #F5F5F5; /* Cinza muito claro */
-    --corCinzaNeumorfismo: #BEBEBE; /* Cinza para efeito neumorfismo */
+  /* Tons de Cinza Claro */
+  --corCinzaClaro: #E0E0E0; /* Cinza claro */
+  --corCinzaMuitoClaro: #F5F5F5; /* Cinza muito claro */
+  --corCinzaNeumorfismo: #BEBEBE; /* Cinza para efeito neumorfismo */
 
-    /* Tons Metálicos */
-    --corMetalicaPrataEscuro: #5A5A5A; /* Cinza metálico escuro */
-    --corMetalicaCinza: #7A7A7A; /* Cinza metálico claro */
+  /* Tons Metálicos */
+  --corMetalicaPrataEscuro: #5A5A5A; /* Cinza metálico escuro */
+  --corMetalicaCinza: #7A7A7A; /* Cinza metálico claro */
 
-    /* Paleta de Cores - Texto */
-    --corTextoPrimario: #FFFFFF; /* Branco para texto primário */
-    --corTextoSecundario: #E0E0E0; /* Branco ligeiramente mais escuro para texto secundário */
-    --corTextoDestaque: #FFFFFF; /* Branco para destaques */
-    --corTextoLink: #89B4FA; /* Azul claro para links */
-    --corTextoLinkHover: #A6CDFF; /* Azul mais claro no hover */
+  /* Paleta de Cores - Texto */
+  --corTextoPrimario: #FFFFFF; /* Branco para texto primário */
+  --corTextoSecundario: #E0E0E0; /* Branco ligeiramente mais escuro para texto secundário */
+  --corTextoDestaque: #FFFFFF; /* Branco para destaques */
+  --corTextoLink: #89B4FA; /* Azul claro para links */
+  --corTextoLinkHover: #A6CDFF; /* Azul mais claro no hover */
 
-    /* Cores de Texto Escuro */
-    --corTextoEscuroPrimario: #333333; /* Cinza escuro para texto primário em fundos claros */
-    --corTextoEscuroSecundario: #555555; /* Cinza médio para texto secundário em fundos claros */
-    --corTextoEscuroDestaque: #222222; /* Preto suave para destaques em fundos claros */
+  /* Cores de Texto Escuro */
+  --corTextoEscuroPrimario: #333333; /* Cinza escuro para texto primário em fundos claros */
+  --corTextoEscuroSecundario: #555555; /* Cinza médio para texto secundário em fundos claros */
+  --corTextoEscuroDestaque: #222222; /* Preto suave para destaques em fundos claros */
 
-    /* Elementos Brancos */
-    --corElementoBranco: #FFFFFF; /* Branco para elementos específicos */
-    --corElementoBrancoHover: #F0F0F0; /* Branco ligeiramente mais escuro no hover */
+  /* Elementos Brancos */
+  --corElementoBranco: #FFFFFF; /* Branco para elementos específicos */
+  --corElementoBrancoHover: #F0F0F0; /* Branco ligeiramente mais escuro no hover */
 
-    /* Botões */
-    --corBotaoPrimario: #48BB78;
-    --corBotaoPrimarioHover: #36A764;
-    --corBotaoSecundario: #282A2E;
-    --corBotaoSecundarioHover: #33363B;
+  /* Botões */
+  --corBotaoPrimario: #48BB78;
+  --corBotaoPrimarioHover: #36A764;
+  --corBotaoSecundario: #282A2E;
+  --corBotaoSecundarioHover: #33363B;
 
-    /* Feedback */
-    --corSucesso: #28a745;
-    --corAviso: #ffc107;
-    --corErro: #dc3545;
-    --corInfo: #17a2b8;
+  /* Feedback */
+  --corSucesso: #28a745;
+  --corAviso: #ffc107;
+  --corErro: #dc3545;
+  --corInfo: #17a2b8;
 
-    /* Gradientes */
-    --gradientePrimario: linear-gradient(135deg, #FFFFFF 0%, #A0A0A0 100%); /* Branco puro para cinza metálico */
-    --gradienteHover: linear-gradient(135deg, rgba(255, 255, 255, 0.842), #444444); /* Branco com transparência para cinza médio */
-    --gradienteElemento: linear-gradient(135deg, #666666, rgba(255, 255, 255, 0.3)); /* Cinza médio escuro para branco com transparência */
+  /* Gradientes */
+  --gradientePrimario: linear-gradient(135deg, #FFFFFF 0%, #A0A0A0 100%); /* Branco puro para cinza metálico */
+  --gradienteHover: linear-gradient(135deg, rgba(255, 255, 255, 0.842), #444444); /* Branco com transparência para cinza médio */
+  --gradienteElemento: linear-gradient(135deg, #666666, rgba(255, 255, 255, 0.3)); /* Cinza médio escuro para branco com transparência */
 
-    /* Outras Cores */
-    --corBorda: rgba(255, 255, 255, 0.1);
-    --corSombras: 15px 15px 30px #282A2E, -15px -15px 30px #44474A;
+  /* Outras Cores */
+  --corBorda: rgba(255, 255, 255, 0.1);
+  --corSombras: 15px 15px 30px #282A2E, -15px -15px 30px #44474A;
 
-    --corNeumorfismoFundo: #1E1E1E; /* Cor de fundo para o elemento */
-    --corNeumorfismoSombraClara: #282828; /* Sombra clara para o efeito */
-    --corNeumorfismoSombraEscura: #121212; /* Sombra escura para o efeito */
+  --corNeumorfismoFundo: #1E1E1E; /* Cor de fundo para o elemento */
+  --corNeumorfismoSombraClara: #282828; /* Sombra clara para o efeito */
+  --corNeumorfismoSombraEscura: #121212; /* Sombra escura para o efeito */
 }
 
 html {
-    /* scrollbar-width: none;  */
-    overflow-x: hidden;
-    font-size: 16px;
-    /* Defina um tamanho base para o rem */
+  /* scrollbar-width: none;  */
+  overflow-x: hidden;
+  font-size: 16px;
+  /* Defina um tamanho base para o rem */
 }
 *::selection {
-  user-select: none;
+user-select: none;
 }
 *{
-  box-sizing: border-box;
+box-sizing: border-box;
 }
 
 .body {
-    font-size: 1rem;
-    color: var(--corTextoPrimario);
-    font-family: var(--fonteTexto);
-    display: grid;
-    grid-template-columns: minmax(7%, auto) 1fr ;
-    grid-template-rows: auto auto 1fr auto;
-    grid-template-areas:
-        "header header header "
-        "navigation navigation navigation"
-        "leftSidebar mainContent mainContent"
-        "leftSidebar footer footer";
-    width: 100%;
-    min-height: 100vh;
-    max-height: 100vh;
-    /*ultima alteração, corrrigiu o footer*/
-}
-
-.home {
-    grid-area: mainContent;
-    min-height: 20.125rem;
-    max-height: 100vh;
-    background-color: var(--corQuaternaria);
-    border-left: 1px solid var(--corPrimaria);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    scrollbar-width: thin; 
-    scrollbar-color: var(--corBotaoSecundario) var(--corCinzaClaro);
-    overflow-y: auto;
-    background-size: 50% auto;
-}
-
-
-@media (max-width: 540px) {
-/* .aviso{
-    text-align: center;
-} */
-}
-@media (max-width: 344px) {
-    .body {
-      grid-template-columns: auto 1fr;
-    }
-    .minhaArea li {
-      gap: 0.7em;
-      font-size: 1.1em;
-    }
-    .minhaArea li a:first-child {
-      display: none;
-    }
-    .iconesLE {
-      width: 1.6em;
-      height: 1.6em;
-      display: flex;
-      justify-content: center;
-    }
-  }
-  
-  @media (max-width: 361px) {
-    .elementos {
-      margin-left: 9.5px;
-      margin-right: auto;
-      max-width: 90%;
-    }
-    .auto {
-      justify-content: center;
-      padding: 10px;
-    }
-    .corpo-dash {
-      padding: 10px;
-    }
-  }
-  
-  @media (max-width: 375px) {
-    .body {
-      background-color: var(--corQuaternaria);
-      grid-template-areas:
-      "header  header  header "
+  font-size: 1rem;
+  color: var(--corTextoPrimario);
+  font-family: var(--fonteTexto);
+  display: grid;
+  grid-template-columns: minmax(7%, auto) 1fr ;
+  grid-template-rows: auto auto 1fr auto;
+  grid-template-areas:
+      "header header header "
       "navigation navigation navigation"
       "leftSidebar mainContent mainContent"
       "leftSidebar footer footer";
-    }
+  width: 100%;
+  min-height: 100vh;
+  max-height: 100vh;
+  /*ultima alteração, corrrigiu o footer*/
+}
 
-  }
-  
-  @media (max-width: 412px) {
-    .elementos {
-      width: auto;
-    }
-    .body {
-      grid-template-columns: auto 1fr;
-    }
-    .minhaArea li a:first-child {
-      font-size: 0.7em;
-    }
-  }
-  
-  @media (max-width: 414px) {
-    .body {
-      grid-template-columns: auto 1fr;
-    }
-    .minhaArea li a {
-      gap: 0.5em;
-      font-size: 0.7em;
-    }
-        .minhaArea li a:first-child {
-      font-size: 0.7em;
-    }
-  }
-  
-  @media (max-width: 660px) {
-    .footer {
-      position: fixed;
-      left: 0;
-      bottom: 0;
-      width: 100%;
-    }
-    .cv-img {
-      width: 100%;
-    }
-    .navigation {
-      height: fit-content;
-      font-size: 1em;
-    }
-    .menu {
-      font-size: 0.8em;
-    }
-    .minhaArea li {
-      gap: 0.7em;
-      font-size: 1em;
-    }
-    .corpo-dash {
-      display: flex;
-      flex-direction: column;
-      padding: 10px;
-    }
-    .auto {
-      grid-template-areas: auto;
-      grid-template-columns: 1fr;
-      width: 13em;
-      margin-left: auto;
-      margin-right: auto;
-    }
-    .elementos:nth-child(1),
-    .elementos:nth-child(5),
-    .elementos:nth-child(11),
-    .elementos:nth-child(12) {
-      grid-area: auto;
-    }
-    .elementos {
-      border-radius: 4%;
-      width: 11.9em;
-    }
-    .minhaArea li a {
-      font-size: 1em;
-    }
-    .home {
-      background-image: url('../assets/images/pre.gif');
-      max-height: 100vh;
-    }
-    /* .aviso {
-      font-size: 0.8em;
-      text-align: start;
-    } */
-    .menutxt {
-      font-size: 0.9em;
-    }
-    .uml_ativ {
-      width: 110%;
-      height: 97%;
-    }
-    .corpo-codando {
-      height: auto;
-      min-height: 100%;
-      background-color: var(--corQuaternaria);
-      padding: 1.25rem;
-      width: 100%;
-      overflow: hidden;
-    }
-    .codando {
-      display: flex;
-      width: 100%;
-      height: auto;
-      margin-top: 30%;
-      margin-left: auto;
-      margin-right: auto;
-    }
-    
-  }
-  
-  @media (max-width: 896px) {
-    .minhaArea li {
-      gap: 0.7em;
-      font-size: 1.1em;
-    }
-    .body {
-      grid-template-areas:
-        "header  header  header "
-        "navigation navigation navigation "
-        "leftSidebar mainContent mainContent"
-        "leftSidebar footer footer ";
-    }
-    .minhaArea {
-      padding: 0 0.3125rem;
-      gap: 0.8125rem;
-      font-size: 1em;
-    }
-    /* .aviso {
-      font-size: 0.8em;
-      text-align: start;
-    } */
-    .uml_ativ {
-      width: 110%;
-      height: 97%;
-    }
-    .home {
-      min-height: 15.125rem;
-      max-height: 100vh;
-      background-size: contain;
-      background-repeat: no-repeat;
-      background-position: center;
-    }
-  }
-  
-  @media (max-width: 1024px) {
-    .minhaArea li {
-      gap: 0.7em;
-      font-size: 1.1em;
-    }
-  }
-  
-  @media (max-width: 1280px) {
-    .minhaArea li {
-      gap: 0.7em;
-      font-size: 1.1em;
-    }
-  }
+.home {
+  grid-area: mainContent;
+  min-height: 20.125rem;
+  max-height: 100vh;
+  background-color: var(--corQuaternaria);
+  border-left: 1px solid var(--corPrimaria);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  scrollbar-width: thin; 
+  scrollbar-color: var(--corBotaoSecundario) var(--corCinzaClaro);
+  overflow-y: auto;
+  background-size: 50% auto;
+}
