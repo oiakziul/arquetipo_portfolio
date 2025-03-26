@@ -43,13 +43,13 @@ export const LeftSidebar = () => {
                 </li>
                 <li>
                     <a
-                        href="https://www.linkedin.com/in/kaio-l-433767230/"
+                        href="https://www.linkedin.com/in/kaio-433767230/"
                         target="_blank"
                         rel="noopener noreferrer"
                     >
                         LinkedIn
                     </a>
-                    <a href="https://www.linkedin.com/in/kaio-l-433767230/" target="_blank" rel="noopener noreferrer">
+                    <a href="https://www.linkedin.com/in/kaio-433767230/" target="_blank" rel="noopener noreferrer">
                         <BiLogoLinkedinSquare className={styles.iconesLeftSidebar} />
                     </a>
                 </li>
