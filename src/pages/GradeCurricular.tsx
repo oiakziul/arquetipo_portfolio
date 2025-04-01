@@ -29,6 +29,11 @@ export const GradeCurricular = () => {
             <td>2022</td>
             <td>Concluído</td>
           </tr>
+          <tr>
+            <td>a fazer</td>
+            <td>+31</td>
+            <td>+31</td>
+          </tr>
           {/* Adicione mais linhas <tr> aqui para preencher a tabela */}
         </tbody>
       </table>
