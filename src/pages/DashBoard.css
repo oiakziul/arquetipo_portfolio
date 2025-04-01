@@ -68,11 +68,10 @@ html {
   font-size: 16px;
   /* Defina um tamanho base para o rem */
 }
-*::selection {
-user-select: none;
-}
+
 *{
 box-sizing: border-box;
+user-select: none;
 }
 
 .body {

@@ -8,35 +8,26 @@ export const GradeCurricular = () => {
   return (
     
     <div className={styles.container}>
-        <p>Styles componetes implmenteado, proximo passo refazer a responsividade.</p>
-     
+      
       <table className={styles.table}>
         <thead>
           <tr>
-            <th>ID</th>
-            <th>Nome</th>
-            <th>E-mail</th>
-            <th>Telefone</th>
-            <th>CPF</th>
-            <th>Data de Nascimento</th>
+            <th>Disciplina</th>
+            <th>Ano</th>
+            <th>Situação</th>
           </tr>
         </thead>
         <tbody>
           <tr>
-            <td>a</td>
-            <td>s</td>
-            <td>d</td>
-            <td>f</td>
-            <td>g</td>
-            <td>h</td>
+            <td>FUNDAMENTOS E ARQUITETURA DE COMPUTADORES</td>
+            <td>2022</td>
+            <td>Concluído</td>
+            
           </tr>
           <tr>
-            <td>a</td>
-            <td>s</td>
-            <td>d</td>
-            <td>f</td>
-            <td>g</td>
-            <td>h</td>
+            <td>ALGORITMOS E LÓGICA DE PROGRAMAÇÃO I</td>
+            <td>2022</td>
+            <td>Concluído</td>
           </tr>
           {/* Adicione mais linhas <tr> aqui para preencher a tabela */}
         </tbody>
