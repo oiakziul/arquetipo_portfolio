@@ -6,11 +6,11 @@ export const Inicio = () => {
       <h1 style={{ fontSize: '30px' }}>Notas da versão:</h1> <br /> <br />
       <h1 >
         Hoje 03/04/2025 <br /> <br />
-        <br /> <br /> 01 - Modularização com styled componentes concluida com sucesso. ✔✔
-        <br /> <br /> 02 - Componentização com arquivos .tsx implementado com sucesso. ✔✔
+        <br /> <br /> 01 - Modularização com styled componentes concluída com sucesso. ✔✔
+        <br /> <br /> 02 - Componentização com arquivos tsx implementado com sucesso. ✔✔
         <br /> <br /> 03 - Router DOM & SPA implementado com sucesso. ✔✔
         <br /> <br /> 04 - Repositório migrado para o Linux com sucesso. ✔✔
-        <br /> <br /> 05 - Logica do GRID integrada ao Router DOM concluida com suecsso. ✔✔
+        <br /> <br /> 05 - Logica do GRID integrada ao Router DOM concluída com sucesso. ✔✔
       </h1> <br /> <br />
 
       <h1>
@@ -30,7 +30,7 @@ export const Inicio = () => {
       <h2>
         09 - Tailwind ou MUI?</h2>
       <h2> <br /> <br />
-        10 - Segredos ...
+        10 - ...
       </h2><br /> <br />
 
     </div>
