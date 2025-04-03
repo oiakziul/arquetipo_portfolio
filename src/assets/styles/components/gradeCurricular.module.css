@@ -1,60 +1,133 @@
 .container {
-    background-color: var(--corQuaternaria);
-    font-size: 1.2rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    /* justify-content: center; */
-    flex-wrap: wrap;
-    padding: 33px 30px;
-    min-height: 100vh;
-    font-family: "Montserrat", sans-serif; /* Adicionado aqui para garantir que a fonte seja aplicada */
-    color: black;
+  background-color: var(--corQuaternaria);
+  font-size: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  flex-wrap: wrap;
+  padding: 20px 15px; /* Reduzi o padding para telas menores */
+  min-height: 100vh;
+  font-family: "Montserrat", sans-serif;
+  color: black;
+  box-sizing: border-box; /* Importante para o padding não afetar a largura total */
 }
 
+.table {
+  border-spacing: 1;
+  border-collapse: collapse;
+  background: black;
+  border-radius: 10px;
+  overflow: hidden;
+  width: 95%; /* Aumentei a largura padrão para ocupar mais espaço em telas menores */
+  max-width: 1170px;
+  margin: 20px auto;
+  position: static;
+  cursor: pointer;
+  box-sizing: border-box; /* Importante para o padding não afetar a largura total */
+}
+
+.table thead th {
+  background-color: #36304a;
+  color: white;
+  text-align: center;
+  padding: 12px; /* Reduzi o padding para telas menores */
+  font-size: 0.9rem; /* Reduzi a fonte para telas menores */
+}
+
+.table th,
+.table td {
+  border: 1px solid black;
+  padding: 12px; /* Reduzi o padding para telas menores */
+  text-align: center;
+  font-size: 0.85rem; /* Reduzi a fonte para telas menores */
+}
+
+.table tr:nth-child(even) {
+  background-color: #ffff;
+}
+
+.table tr:nth-child(odd) {
+  background-color: #eee9e9;
+}
+
+.table tr:hover {
+  background-color: #4158d0;
+  color: white;
+}
+
+.heading {
+  color: #36304a;
+  margin: 15px auto;
+  text-align: center;
+  position: static;
+  font-size: 1.5rem; /* Reduzi a fonte para telas menores */
+}
+
+/* Media query para telas menores (ex: tablets) */
+@media (max-width: 768px) {
+  .container {
+      padding: 15px 10px;
+      font-size: 1rem;
+  }
+
   .table {
-    border-spacing: 1;
-    border-collapse: collapse;
-    background: black;
-    border-radius: 10px;
-    overflow: hidden;
-    width: 50%;
-    max-width: 1170px;
-    margin: 0 auto;
-    margin-top: 20px;
-    position: static;
-    cursor: pointer;
+      width: 100%; /* Ocupar toda a largura em telas menores */
   }
-  
+
   .table thead th {
-    background-color: #36304a;
-    color: white;
-    text-align: center;
+      padding: 10px;
+      font-size: 0.8rem;
   }
-  
+
   .table th,
   .table td {
-    border: 1px solid black; /* Removido pois será sobrescrito abaixo */
-    padding: 18px;
-    text-align: center;
+      padding: 10px;
+      font-size: 0.75rem;
   }
-  
-  .table tr:nth-child(even) {
-    background-color: #ffff;
-  }
-  
-  .table tr:nth-child(odd) {
-    background-color: #eee9e9;
-  }
-  
-  .table tr:hover {
-    background-color: #4158d0;
-    color: white;
-  }
-  
+
   .heading {
-    color: #36304a;
-    margin: 15px auto;
-    text-align: center;
-    position: static;
+      font-size: 1.2rem;
   }
+}
+
+/* Media query para telas ainda menores (ex: celulares) */
+@media (max-width: 480px) {
+  .container {
+      padding: 10px 5px;
+      font-size: 0.9rem;
+  }
+
+  .table {
+      /* Em telas muito pequenas, podemos considerar ajustar ainda mais o layout */
+      /* Exemplo: tornar a tabela rolável horizontalmente */
+      display: block;
+      overflow-x: auto;
+  }
+
+  .table thead {
+      display: table-header-group; /* Para manter o cabeçalho fixo se necessário */
+  }
+
+  .table thead th {
+      min-width: 80px; /* Garante uma largura mínima para as colunas do cabeçalho */
+      font-size: 0.7rem;
+      padding: 8px 5px;
+  }
+
+  .table tr {
+      display: table-row;
+  }
+
+  .table th,
+  .table td {
+      min-width: 80px; /* Garante uma largura mínima para as células da tabela */
+      padding: 8px 5px;
+      font-size: 0.7rem;
+      white-space: nowrap; /* Evita que o texto quebre e força a rolagem */
+  }
+
+  .heading {
+      font-size: 1rem;
+  }
+}
