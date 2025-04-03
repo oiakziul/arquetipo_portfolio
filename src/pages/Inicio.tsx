@@ -1,9 +1,3 @@
-
-
-// interface Props {
-
-// }
-
 export const Inicio = () => {
   return (
 
