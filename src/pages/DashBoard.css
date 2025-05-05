@@ -113,11 +113,3 @@ user-select: none;
     min-height: 100dvh;
   }
 }
-
-@media (min-width: 1px) and (max-width: 1300px) {
-    .body{
-      min-height: 100lvh;
-      max-height: 100lvh;
-    }
-
-}
