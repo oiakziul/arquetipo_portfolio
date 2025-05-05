@@ -26,9 +26,16 @@ export const Inicio = () => {
       <h2>
         09 - Tailwind ou MUI?</h2>
       <h2> <br /> <br />
-        10 - ...
+        10 - Incremento de um segundo tipo de curriculo com estrutura .tsx
       </h2><br /> <br />
 
+      <h2> <br /> <br />
+        11 - Botões de download dos pdfs dos arquivos disponiveis.
+      </h2><br /> <br />
+
+      <h2> <br /> <br />
+        12 - Continua...
+      </h2><br /> <br />
     </div>
   );
 };
