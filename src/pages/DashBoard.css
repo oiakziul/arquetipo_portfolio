@@ -63,10 +63,15 @@
 }
 
 html {
-  /* scrollbar-width: none;  */
   overflow-x: hidden;
   font-size: 16px;
-  /* Defina um tamanho base para o rem */
+  margin: 0;
+  padding: 0;
+}
+
+body {
+   margin: 0;
+   padding: 0;
 }
 
 *{
