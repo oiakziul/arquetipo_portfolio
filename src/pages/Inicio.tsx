@@ -29,12 +29,15 @@ export const Inicio = () => {
         10 - Incremento de um segundo tipo de curriculo com estrutura .tsx
       </h2><br /> <br />
 
-      <h2> <br /> <br />
+      <h2> 
         11 - Botões de download dos pdfs dos arquivos disponiveis.
       </h2><br /> <br />
 
-      <h2> <br /> <br />
-        12 - Continua...
+      <h2> 
+        12 - Terminar de popular a tela 'Faculdade'...
+      </h2><br /> <br />
+      <h2> 
+        13 - ...
       </h2><br /> <br />
     </div>
   );
