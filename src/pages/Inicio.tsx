@@ -5,18 +5,13 @@ export const Inicio = () => {
       <br /><br />
       <h1 style={{ fontSize: '30px' }}>Notas da versão:</h1> <br /> <br />
       <h1 >
-        Hoje 03/04/2025 <br /> <br />
+        Hoje 05/05/2025 <br /> <br />
         <br /> <br /> 01 - Modularização com styled componentes concluída com sucesso. ✔✔
         <br /> <br /> 02 - Componentização com arquivos tsx implementado com sucesso. ✔✔
         <br /> <br /> 03 - Router DOM & SPA implementado com sucesso. ✔✔
         <br /> <br /> 04 - Repositório migrado para o Linux com sucesso. ✔✔
         <br /> <br /> 05 - Logica do GRID integrada ao Router DOM concluída com sucesso. ✔✔
-      </h1> <br /> <br />
-
-      <h1>
-        06 - Próximos passos,
-        Recuperar a responsividade que foi retirada do código para manutenção
-        <br /><br /> (Troquei o nome de todas as classes para facilitar a manutenção e evoluição futuramente).
+        <br /> <br /> 06 - Responsividade aplicada, layout alterado para telas menores. ✔✔
       </h1> <br /> <br />
 
       <h1>
