@@ -99,17 +99,35 @@
     /* Retorna ao tamanho normal */
 }
 
-@media (max-width: 720px){
+@media (max-width: 720px) {
     .gridItem:nth-child(1),
     .gridItem:nth-child(5),
     .gridItem:nth-child(11),
     .gridItem:nth-child(12) {
-        grid-area: auto; /* Reset to default flow */
+        grid-area: auto;
+    }
+
+    .dashboardGrid {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(calc(58% - 1.25rem), calc(60% - 1.25rem)));
+        grid-auto-rows: minmax(7rem, 15rem);
+        gap: 10px;
+    }
 }
-.dashboardGrid {
-    display: grid;
-    grid-template-columns: repeat(2, minmax(calc(58% - 1.25rem), calc(60% - 1.25rem)));
-    grid-auto-rows: minmax(7rem, 15rem);
-    gap: 10px;
-}
+
+@media (min-width: 721px) and (max-width: 1300px) {
+    
+    .gridItem:nth-child(1),
+    .gridItem:nth-child(5),
+    .gridItem:nth-child(11),
+    .gridItem:nth-child(12) {
+        grid-area: auto;
+    }
+
+    .dashboardGrid {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(calc(50% - 1.25rem), calc(55% - 1.25rem)));
+        grid-auto-rows: minmax(25rem, 33rem);
+        gap: 10px;
+    }
 }

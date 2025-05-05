@@ -28,11 +28,21 @@
 }
 
 @media (max-width: 720px) {
-    .sidebarMenu li a:first-child { /* Seleciona o primeiro 'a' dentro de cada 'li' (o texto) */
+    .sidebarMenu li a:first-child {
         display: none;
     }
 
     .sidebarMenu li {
-        justify-content: center; /* Centraliza os ícones */
+        justify-content: center;
+    }
+}
+
+@media (min-width: 721px) and (max-width: 1300px) {
+    .sidebarMenu li a:first-child {
+        display: none;
+    }
+
+    .sidebarMenu li {
+        justify-content: center;
     }
 }
