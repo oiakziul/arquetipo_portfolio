@@ -106,6 +106,14 @@ user-select: none;
   overflow-y: auto;
   background-size: 50% auto;
 }
+
+@media (max-width: 1300px) {
+  .body {
+    min-height: 100vh; 
+    min-height: 100dvh;
+  }
+}
+
 @media (min-width: 1px) and (max-width: 1300px) {
     .body{
       min-height: 100lvh;
