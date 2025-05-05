@@ -26,3 +26,13 @@
     height: 1.3rem;
     padding: 0;
 }
+
+@media (max-width: 720px) {
+    .sidebarMenu li a:first-child { /* Seleciona o primeiro 'a' dentro de cada 'li' (o texto) */
+        display: none;
+    }
+
+    .sidebarMenu li {
+        justify-content: center; /* Centraliza os ícones */
+    }
+}
