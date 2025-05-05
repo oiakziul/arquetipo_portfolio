@@ -82,38 +82,34 @@ user-select: none;
   grid-template-columns: minmax(7%, auto) 1fr ;
   grid-template-rows: auto auto 1fr auto;
   grid-template-areas:
-      "header header"
-      "navigation navigation"
-      "leftSidebar mainContent"
-      "leftSidebar footer";
+      "header header header "
+      "navigation navigation navigation"
+      "leftSidebar mainContent mainContent"
+      "leftSidebar footer footer";
   width: 100%;
-  min-height: 100vh; /* Default height for screens > 1300px */
-  background-color: var(--corPrimaria); /* Added background for clarity */
+  min-height: 100vh;
+  max-height: 100vh;
+  /*ultima alteração, corrrigiu o footer*/
 }
 
 .home {
   grid-area: mainContent;
-  /* min-height: 20.125rem; */ /* Consider removing if 1fr is sufficient */
+  min-height: 20.125rem;
+  max-height: 100vh;
   background-color: var(--corQuaternaria);
   border-left: 1px solid var(--corPrimaria);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  scrollbar-width: thin;
+  scrollbar-width: thin; 
   scrollbar-color: var(--corBotaoSecundario) var(--corCinzaClaro);
   overflow-y: auto;
   background-size: 50% auto;
-  
 }
 
 @media (max-width: 1300px) {
   .body {
-    min-height: 100vh;
-    min-height: 100dvh; /* Applies dynamic height only for screens <= 1300px */
-  }
-}
-@media (min-width: 460px) and (max-width: 1300px) {
-  .home{
-    padding: 0.5rem;
+    min-height: 100vh; 
+    min-height: 100dvh;
   }
 }
