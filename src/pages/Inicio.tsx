@@ -12,6 +12,7 @@ export const Inicio = () => {
         <br /> <br /> 04 - Repositório migrado para o Linux com sucesso. ✔✔
         <br /> <br /> 05 - Logica do GRID integrada ao Router DOM concluída com sucesso. ✔✔
         <br /> <br /> 06 - Responsividade aplicada, layout alterado para telas menores. ✔✔
+        <br /> <br /> 06 - Tela 'Grade', Finalizada. ✔✔
       </h1> <br /> <br />
 
       <h1>
