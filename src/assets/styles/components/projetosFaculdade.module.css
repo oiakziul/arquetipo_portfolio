@@ -10,7 +10,7 @@
 .dashboardGrid {
     display: grid;
     grid-template-columns: repeat(4, minmax(calc(25% - 1.25rem), calc(35% - 1.25rem)));
-    grid-auto-rows: minmax(7rem, 15rem);
+    grid-auto-rows: minmax(17rem, 25rem);
     justify-content: center;
     gap: 0.9375rem;
     padding-bottom: 2.8125rem;
