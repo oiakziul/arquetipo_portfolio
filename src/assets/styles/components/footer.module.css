@@ -7,5 +7,9 @@
     border-left: 1px solid var(--corTerciaria);
     border-right: 1px solid var(--corTerciaria);
     height: auto;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
   }
   
