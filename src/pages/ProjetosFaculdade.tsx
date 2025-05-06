@@ -8,10 +8,10 @@ export const ProjetosFaculdade = () => {
         <div className={styles.gridItem} id={styles.dmuActivation} >
           Diagrama de atividades <br /> <br />
           <span style={{ fontSize: '0.7em', color: '#666' }}>
-          Futuramente clicar no card exibirá o projeto ampliado em PDF. 
+          Futuramente, clicar no card exibirá o projeto ampliado em PDF. 
           </span>
         </div>
-        <div className={styles.gridItem}>Bravo</div>
+        <div className={styles.gridItem}>Forms</div>
         <div className={styles.gridItem}>Charlie</div>
         <div className={styles.gridItem}>Delta</div>
         <div className={styles.gridItem}>Echo</div>
