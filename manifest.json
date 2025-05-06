@@ -1,25 +1,33 @@
-{
-  "short_name": "React App",
-  "name": "Create React App Sample",
-  "icons": [
-    {
-      "src": "favicon.ico",
-      "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/x-icon"
-    },
-    {
-      "src": "logo192.png",
-      "type": "image/png",
-      "sizes": "192x192"
-    },
-    {
-      "src": "logo512.png",
-      "type": "image/png",
-      "sizes": "512x512"
-    }
-  ],
-  "start_url": ".",
-  "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
-}
+  {
+    "short_name": "Portfólio", 
+    "name": "Meu Portfólio Pessoal - SPA", 
+    "description": "Portfólio de projetos e currículo desenvolvido como SPA.", 
+    "icons": [
+      {
+        "src": "favicon.ico", 
+        "sizes": "64x64 32x32 24x24 16x16",
+        "type": "image/x-icon"
+      },
+      {
+        "src": "esoft.png", 
+        "type": "image/png",
+
+        "sizes": "100x100"
+
+      },
+      {
+          "src": "vite.svg", 
+          "type": "image/svg+xml",
+          "sizes": "any" 
+      }
+
+    ],
+  
+    "start_url": "/arquetipo_portfolio/",
+  
+    "scope": "/arquetipo_portfolio/",
+    "display": "standalone", 
+
+    "theme_color": "#121212", 
+    "background_color": "#1E1E1E" 
+  }
