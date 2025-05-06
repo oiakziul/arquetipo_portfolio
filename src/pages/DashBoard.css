@@ -39,6 +39,7 @@
   /* Botões */
   --corBotaoPrimario: #48BB78;
   --corBotaoPrimarioHover: #36A764;
+  --gradienteHoverBTN: linear-gradient(135deg, #48BB78, #282828); 
   --corBotaoSecundario: #282A2E;
   --corBotaoSecundarioHover: #33363B;
 
@@ -50,7 +51,7 @@
 
   /* Gradientes */
   --gradientePrimario: linear-gradient(135deg, #FFFFFF 0%, #A0A0A0 100%); /* Branco puro para cinza metálico */
-  --gradienteHover: linear-gradient(135deg, rgba(255, 255, 255, 0.842), #444444); /* Branco com transparência para cinza médio */
+  --gradienteHover: linear-gradient(135deg, #48BB78, #010101); /* Branco com transparência para cinza médio */
   --gradienteElemento: linear-gradient(135deg, #666666, rgba(255, 255, 255, 0.3)); /* Cinza médio escuro para branco com transparência */
 
   /* Outras Cores */

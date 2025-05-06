@@ -9,3 +9,36 @@
     font-family: var(--fonteTitulo);
     font-size: 1rem;
 }
+/* Seus estilos existentes para .header, como display: flex, justify-content, etc. */
+.header {
+    display: flex;
+    justify-content: space-between; /* Exemplo */
+    align-items: center;          /* Exemplo */
+    padding: 1rem;                /* Exemplo */
+    /* ... outros estilos do header ... */
+  }
+  
+  .buttonPWA {
+    display: flex;
+    align-items: center;
+    gap: 0.4em;
+    cursor: pointer;
+    background: var(--gradientePrimario);
+    border: none;
+    color: var(--corTextoEscuroPrimario, #181818);
+    padding: 0.5em 1em;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 500;
+    transition: background 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .buttonPWA:hover {
+    cursor: pointer; 
+    background: var(--gradienteHoverBTN);
+    color: rgb(255, 255, 255);
+  }
+  
+  .buttonPWA svg {
+    font-size: 1.1em; 
+   }
