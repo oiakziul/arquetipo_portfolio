@@ -1,3 +1,4 @@
+import styles from "../assets/styles/components/inicio.module.css"
 export const Inicio = () => {
   return (
 
@@ -5,20 +6,19 @@ export const Inicio = () => {
       <br /><br />
       <h1 style={{ fontSize: '30px' }}>Notas da versão:</h1> <br /> <br />
       <h1 >
-        Hoje 05/05/2025 <br /> <br />
-        <br /> <br /> 01 - Modularização com styled componentes concluída com sucesso. ✔✔
-        <br /> <br /> 02 - Componentização com arquivos tsx implementado com sucesso. ✔✔
-        <br /> <br /> 03 - Router DOM & SPA implementado com sucesso. ✔✔
-        <br /> <br /> 04 - Repositório migrado para o Linux com sucesso. ✔✔
-        <br /> <br /> 05 - Logica do GRID integrada ao Router DOM concluída com sucesso. ✔✔
-        <br /> <br /> 06 - Responsividade aplicada, layout alterado para telas menores. ✔✔
-        <br /> <br /> 07 - Tela 'Grade', Finalizada. ✔✔
-        <br /> <br /> 08 - Implementação de uso offline conlcuida. ✔✔
+        Hoje 06/05/2025 <br /> <br />
+        <br /> <br /> v1.1 - Modularização - Styled Componentes. <span className={styles.check}>✔✔</span>
+        <br /> <br /> v1.2 - Componentização .tsx implementada. <span className={styles.check}>✔✔</span>
+        <br /> <br /> v1.3 - Router DOM & SPA implementado com sucesso. <span className={styles.check}>✔✔</span>
+        <br /> <br /> v1.4 - Repositório migrado para o Linux. <span className={styles.check}>✔✔</span>
+        <br /> <br /> v1.5 - Lógica do GRID integrada ao Router DOM. <span className={styles.check}>✔✔</span>
+        <br /> <br /> v1.6 - Responsividade: Layout otimizado em telas menores. <span className={styles.check}>✔✔</span>
+        <br /> <br /> v1.7 - Componente 'Grade', Finalizada. <span className={styles.check}>✔✔</span> 
+        <br /> <br /> v1.8 - Implementação de uso offline conlcuida. <span className={styles.check}>✔✔</span>
+        <br /> <br /> v1.9 - <span className={styles.corAviso}> . . . </span>  
       </h1> <br /> <br />
 
-      <h2> 
-        09 - ...
-      </h2><br /> <br />
+      
     </div>
   );
 };
