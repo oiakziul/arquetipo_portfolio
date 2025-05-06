@@ -106,10 +106,9 @@ user-select: none;
   overflow-y: auto;
   background-size: 50% auto;
 }
-/*
+
 @media (min-width: 460px) and (max-width: 1300px) {
   .home{
     padding: 0.5rem;
   }
 }
-  */
