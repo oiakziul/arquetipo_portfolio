@@ -3,8 +3,6 @@ import styles from '../assets/styles/components/projetosFaculdade.module.css'
 export const ProjetosFaculdade = () => {
   return (
     <div className={styles.dashboardContainer}>
-      <p className='aviso'> Experimente mudar a orientação da tela.</p>
-      <br />
       <main className={styles.dashboardGrid}>
         {/* Elementos */}
         <div className={styles.gridItem} id={styles.dmuActivation} >
