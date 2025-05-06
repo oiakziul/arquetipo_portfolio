@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) navigator.serviceWorker.register('/arquetipo_portfolio/dev-sw.js?dev-sw', { scope: '/arquetipo_portfolio/', type: 'classic' })
