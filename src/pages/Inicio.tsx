@@ -15,7 +15,7 @@ export const Inicio = () => {
         <br /> <br /> v1.6 - Responsividade otimizada para telas menores. <span className={styles.check}>✔✔</span>
         <br /> <br /> v1.7 - Componente 'Grade', Finalizada. <span className={styles.check}>✔✔</span> 
         <br /> <br /> v1.8 - Implementação de uso offline conlcuida. <span className={styles.check}>✔✔</span>
-        <br /> <br /> v1.9 - <span className={styles.corAviso}> . . . </span>  
+        <br /> <br /> v1.9  <span className={styles.corAviso}> . . . </span>  
       </h1> <br /> <br />
     </div>
   );
