@@ -2,7 +2,7 @@
     height: auto;
     min-height: 100vh;
     background-color: var(--corQuaternaria);
-    padding: 1.25rem;
+    padding: 1.15rem 1.25rem;
     width: 100%;
     overflow: hidden;
 }
