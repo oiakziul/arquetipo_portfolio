@@ -3,7 +3,7 @@ export const Inicio = () => {
   return (
 
     <div style={{ marginLeft: '20px' }}>
-      <br /><br />
+      <br />
       <h1 style={{ fontSize: '30px' }}>Notas da versão:</h1> <br /> <br />
       <h1 >
         Hoje 06/05/2025 <br /> <br />
@@ -13,7 +13,7 @@ export const Inicio = () => {
         <br /> <br /> v1.4 - Repositório migrado para o Linux. <span className={styles.check}>✔✔</span>
         <br /> <br /> v1.5 - Lógica do GRID integrada ao SPA. <span className={styles.check}>✔✔</span>
         <br /> <br /> v1.6 - Responsividade para telas menores. <span className={styles.check}>✔✔</span>
-        <br /> <br /> v1.7 - Componente 'Grade', Finalizada. <span className={styles.check}>✔✔</span> 
+        <br /> <br /> v1.7 - Componente 'Grade', Finalizado. <span className={styles.check}>✔✔</span> 
         <br /> <br /> v1.8 - Uso offline. <span className={styles.check}>✔✔</span>
         <br /> <br /> v1.9  <span className={styles.corAviso}> . . . </span>  
       </h1> <br /> <br />

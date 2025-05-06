@@ -4,13 +4,12 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* justify-content: center; */
   flex-wrap: wrap;
-  padding: 20px 15px; /* Reduzi o padding para telas menores */
+  padding: 20px 15px; 
   min-height: 100vh;
   font-family: "Montserrat", sans-serif;
   color: black;
-  box-sizing: border-box; /* Importante para o padding não afetar a largura total */
+  box-sizing: border-box; 
 }
 
 .table {
@@ -18,20 +17,21 @@
   border-collapse: collapse;
   background: black;
   overflow: hidden;
-  width: 95%; /* Aumentei a largura padrão para ocupar mais espaço em telas menores */
+  width: 95%;
   max-width: 1170px;
   margin: 20px auto;
   position: static;
   cursor: pointer;
-  box-sizing: border-box; /* Importante para o padding não afetar a largura total */
+  box-sizing: border-box; 
 }
 
 .table thead th {
   background-color: #36304a;
   color: white;
+  font-weight: 700;
   text-align: center;
-  padding: 12px; /* Reduzi o padding para telas menores */
-  font-size: 0.9rem; /* Reduzi a fonte para telas menores */
+  padding: 12px; 
+  font-size: 1rem; 
 }
 .table td:nth-child(1) {
   width: 2%;
@@ -42,10 +42,10 @@
 }
 .table th,
 .table td {
-  border: 1px solid black;
-  padding: 12px; /* Reduzi o padding para telas menores */
+  border: 1px solid rgba(0, 0, 0, 0.507);
+  padding: 12px; 
   text-align: center;
-  font-size: 0.85rem; /* Reduzi a fonte para telas menores */
+  font-size: 0.85rem; 
 }
 
 .table tr:nth-child(even) {
@@ -57,7 +57,7 @@
 }
 
 .table tr:hover {
-  background-color: #4158d0;
+  background-color: #3d55cb;
   color: white;
 }
 
@@ -66,10 +66,9 @@
   margin: 15px auto;
   text-align: center;
   position: static;
-  font-size: 1.5rem; /* Reduzi a fonte para telas menores */
+  font-size: 1.5rem; 
 }
 
-/* Media query para telas menores (ex: tablets) */
 @media (max-width: 720px) {
   .container {
       padding: 15px 10px;
@@ -77,7 +76,7 @@
   }
 
   .table {
-      width: 100%; /* Ocupar toda a largura em telas menores */
+      width: 100%; 
   }
 
   .table thead th {
@@ -96,7 +95,6 @@
   }
 }
 
-/* Media query para telas ainda menores (ex: celulares) */
 @media (max-width: 480px) {
   .container {
       padding: 10px 5px;
@@ -104,18 +102,16 @@
   }
 
   .table {
-      /* Em telas muito pequenas, podemos considerar ajustar ainda mais o layout */
-      /* Exemplo: tornar a tabela rolável horizontalmente */
       display: block;
       overflow-x: auto;
   }
 
   .table thead {
-      display: table-header-group; /* Para manter o cabeçalho fixo se necessário */
+      display: table-header-group;
   }
 
   .table thead th {
-      min-width: 80px; /* Garante uma largura mínima para as colunas do cabeçalho */
+      min-width: 80px;
       font-size: 0.7rem;
       padding: 8px 5px;
   }
@@ -126,10 +122,10 @@
 
   .table th,
   .table td {
-      min-width: 80px; /* Garante uma largura mínima para as células da tabela */
+      min-width: 80px; 
       padding: 8px 5px;
       font-size: 0.7rem;
-      white-space: nowrap; /* Evita que o texto quebre e força a rolagem */
+      white-space: nowrap; 
   }
 
   .heading {
