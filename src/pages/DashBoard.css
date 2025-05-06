@@ -98,7 +98,7 @@ user-select: none;
   min-height: 20.125rem;
   max-height: 100vh;
   background-color: var(--corQuaternaria);
-
+  border-left: 1px solid var(--corPrimaria);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
