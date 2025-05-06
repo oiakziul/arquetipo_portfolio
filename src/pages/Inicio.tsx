@@ -11,10 +11,10 @@ export const Inicio = () => {
         <br /> <br /> v1.2 - Componentização .tsx implementada. <span className={styles.check}>✔✔</span>
         <br /> <br /> v1.3 - Router DOM & SPA implementado. <span className={styles.check}>✔✔</span>
         <br /> <br /> v1.4 - Repositório migrado para o Linux. <span className={styles.check}>✔✔</span>
-        <br /> <br /> v1.5 - Lógica do GRID integrada ao Router DOM. <span className={styles.check}>✔✔</span>
-        <br /> <br /> v1.6 - Responsividade aplicada em telas menores. <span className={styles.check}>✔✔</span>
+        <br /> <br /> v1.5 - Lógica do GRID integrada ao SPA. <span className={styles.check}>✔✔</span>
+        <br /> <br /> v1.6 - Responsividade para telas menores. <span className={styles.check}>✔✔</span>
         <br /> <br /> v1.7 - Componente 'Grade', Finalizada. <span className={styles.check}>✔✔</span> 
-        <br /> <br /> v1.8 - Implementação de uso offline. <span className={styles.check}>✔✔</span>
+        <br /> <br /> v1.8 - Uso offline. <span className={styles.check}>✔✔</span>
         <br /> <br /> v1.9  <span className={styles.corAviso}> . . . </span>  
       </h1> <br /> <br />
     </div>
