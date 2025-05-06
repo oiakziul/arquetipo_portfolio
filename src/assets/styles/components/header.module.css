@@ -9,14 +9,13 @@
     font-family: var(--fonteTitulo);
     font-size: 1rem;
 }
-/* Seus estilos existentes para .header, como display: flex, justify-content, etc. */
+
 .header {
     display: flex;
-    justify-content: space-between; /* Exemplo */
-    align-items: center;          /* Exemplo */
-    padding: 1rem;                /* Exemplo */
-    /* ... outros estilos do header ... */
-  }
+    justify-content: space-between; 
+    align-items: center;          
+    padding: 1rem;                
+   }
   
   .buttonPWA {
     display: flex;
@@ -26,11 +25,12 @@
     background: var(--gradientePrimario);
     border: none;
     color: var(--corTextoEscuroPrimario, #181818);
-    padding: 0.5em 1em;
+    padding: 0.5em 0.3em;
     border-radius: 4px;
     font-size: 16px;
     font-weight: 500;
     transition: background 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
+    height: 25px;
   }
   
   .buttonPWA:hover {
