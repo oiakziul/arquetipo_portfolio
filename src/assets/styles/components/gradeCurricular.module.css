@@ -1,5 +1,5 @@
 .table{
-  user-select:all;
+  user-select:none;
   cursor: pointer;
 }
 .container {
@@ -80,7 +80,7 @@
   }
 
   .table {
-      width: 100%; 
+      width: 70%; 
   }
 
   .table thead th {
