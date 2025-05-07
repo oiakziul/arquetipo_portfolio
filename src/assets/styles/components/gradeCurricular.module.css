@@ -53,7 +53,7 @@
   border: 1px solid rgba(0, 0, 0, 0.507);
   padding: 12px; 
   text-align: center;
-  font-size: 0.95rem; 
+  font-size: 0.85rem; 
 }
 .table td{
   font-size: 1rem; 
@@ -146,8 +146,8 @@
       display: block;
       overflow-x: auto; /* Garante a barra de rolagem horizontal */
       width: auto; /* Alterado para auto para se ajustar ao conteúdo */
-      max-width: none; /* Removido o max-width para permitir expansão */
-  }
+      max-width: none; /* Removido o max-width para permitir expansão */ 
+    }
 
   .table thead {
       display: table-header-group;
@@ -155,7 +155,7 @@
 
   .table thead th {
       min-width: 60px; /* Reduzi a largura mínima para telas menores */
-      font-size: 0.6rem; /* Reduzi a fonte do cabeçalho */
+      font-size: 0.62rem; /* Reduzi a fonte do cabeçalho */
       padding: 6px 3px; /* Reduzi o padding do cabeçalho */
       white-space: nowrap; /* Impede que o texto do cabeçalho quebre */
   }
@@ -172,6 +172,7 @@
       font-size: 0.55rem; /* Reduzi a fonte das células */
       white-space: wrap; /* Impede que o texto das células quebre */
       line-height: 1.5;
+      font-size: 0.63rem;
   }
   .table th:nth-child(1),
   .table td:nth-child(1) {
