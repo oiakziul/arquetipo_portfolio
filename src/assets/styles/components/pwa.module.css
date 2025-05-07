@@ -30,3 +30,7 @@
     }
 
 }
+
+.table{
+    user-select:all;
+}
