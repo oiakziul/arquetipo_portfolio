@@ -11,7 +11,7 @@
 
     .gifStyle{
         display: flex;
-        height: 700px;
+        height: 720px;
         padding: 20px 0;
         margin-top: 20px;
         margin-left: auto;
@@ -22,7 +22,7 @@
 @media (min-width: 721px) and (max-width: 1300px) {
     .gifStyle{
         display: flex;
-        height: 700px;
+        height: 720px;
         padding: 20px 0;
         margin-top: 20px;
         margin-left: auto;
