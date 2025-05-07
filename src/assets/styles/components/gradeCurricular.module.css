@@ -1,7 +1,9 @@
 .table{
-  user-select:none;
   cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none; /* impede menu de contexto em iOS */
 }
+
 .container {
   background-color: var(--corQuaternaria);
   font-size: 1.2rem;
@@ -21,7 +23,7 @@
   border-collapse: collapse;
   background: black;
   overflow: hidden;
-  width: 95%;
+  width: 90%;
   max-width: 1170px;
   margin: 20px auto;
   position: static;
@@ -80,7 +82,7 @@
   }
 
   .table {
-      width: 70%; 
+      width: 100%; 
   }
 
   .table thead th {
