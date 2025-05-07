@@ -40,6 +40,7 @@
   padding: 12px; 
   font-size: 1.85rem; 
 }
+
 .table td:nth-child(1) {
   width: 2%;
 }
@@ -54,7 +55,9 @@
   text-align: center;
   font-size: 0.85rem; 
 }
-
+.table td{
+  font-size: 1rem; 
+}
 .table tr:nth-child(even) {
   background-color: #ffff;
 }
