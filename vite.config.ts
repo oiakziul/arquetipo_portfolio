@@ -10,7 +10,7 @@ export default defineConfig({
       registerType: 'autoUpdate',
       includeAssets: ['favicon.ico', 'apple-touch-icon.png', 'mask-icon.svg'],
       manifest: {
-        name: 'Portfólio SPA',
+        name: 'Portfólio Kaio L.',
         short_name: 'Portfólio Kaio L.',
         description: 'Meu Portfólio Pessoal SPA',
         theme_color: '#121212',
