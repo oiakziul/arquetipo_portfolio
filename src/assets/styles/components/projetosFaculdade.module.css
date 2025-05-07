@@ -126,8 +126,8 @@
 
     .dashboardGrid {
         display: grid;
-        grid-template-columns: repeat(2, minmax(calc(50% - 1.25rem), calc(55% - 1.25rem)));
-        grid-auto-rows: minmax(13rem, 15rem);
+        grid-template-columns: repeat(2, minmax(calc(50% - 1.10rem), calc(55% - 1.10rem)));
+        grid-auto-rows: minmax(12rem, 14rem);
         gap: 10px;
     }
 }
