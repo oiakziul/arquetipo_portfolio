@@ -15,7 +15,8 @@
   min-height: 100vh;
   font-family: "Montserrat", sans-serif;
   color: black;
-  box-sizing: border-box; 
+  box-sizing: border-box;
+  margin-bottom: 40px; 
 }
 
 .table {
