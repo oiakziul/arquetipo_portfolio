@@ -53,7 +53,7 @@
   border: 1px solid rgba(0, 0, 0, 0.507);
   padding: 12px; 
   text-align: center;
-  font-size: 0.85rem; 
+  font-size: 0.95rem; 
 }
 .table td{
   font-size: 1rem; 
@@ -100,13 +100,11 @@
   .table th,
   .table td {
       padding: 8px 5px; /* Reduzi o padding das células */
-      font-size: 0.65rem; /* Reduzi a fonte das células */
+      font-size: 0.75rem; /* Reduzi a fonte das células */
       white-space: nowrap; /* Impede que o texto das células quebre */
       min-width: 80px; /* Garante uma largura mínima para cada coluna */
   }
-  .table td {
-    font-size: 0.95rem;
-  }
+
   .heading {
       font-size: 1.1rem; /* Ajustei um pouco a fonte do título */
   }
