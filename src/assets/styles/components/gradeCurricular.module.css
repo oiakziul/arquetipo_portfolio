@@ -79,38 +79,71 @@
 @media (max-width: 720px) {
   .container {
       padding: 15px 10px;
-      font-size: 1rem;
+      font-size: 0.9rem; /* Ajustei um pouco a fonte do container */
   }
-
   .table {
-      width: 100%; 
+    width: auto; /* Alterado para auto para se ajustar ao conteúdo */
+    max-width: none; /* Removido o max-width para permitir expansão */
+    display: block; /* Garante que a tabela se comporte como bloco */
+    overflow-x: auto; /* Adiciona a barra de rolagem horizontal */
   }
-
   .table thead th {
-      padding: 10px;
-      font-size: 0.8rem;
+      padding: 8px 5px; /* Reduzi o padding do cabeçalho */
+      font-size: 0.7rem; /* Reduzi a fonte do cabeçalho */
+      white-space: nowrap; /* Impede que o texto do cabeçalho quebre */
+      min-width: 80px; /* Garante uma largura mínima para cada coluna */
   }
 
   .table th,
   .table td {
-      padding: 10px;
-      font-size: 0.75rem;
+      padding: 8px 5px; /* Reduzi o padding das células */
+      font-size: 0.65rem; /* Reduzi a fonte das células */
+      white-space: nowrap; /* Impede que o texto das células quebre */
+      min-width: 80px; /* Garante uma largura mínima para cada coluna */
   }
 
   .heading {
-      font-size: 1.2rem;
+      font-size: 1.1rem; /* Ajustei um pouco a fonte do título */
+  }
+  .table th:nth-child(1),
+  .table td:nth-child(1) {
+    width: 45px; /* Defina a largura desejada */
+    min-width: 40px; /* Garante que não fique menor que isso */
+    max-width: 60px; /* Limita a largura máxima */
+    display: none;
+  }
+  .table th:nth-child(3),
+  .table td:nth-child(3) {
+    width: 40px; /* Defina a largura desejada */
+    min-width: 40px; /* Garante que não fique menor que isso */
+    max-width: 68px; /* Limita a largura máxima */
+  }
+  .table th:nth-child(2),
+  .table td:nth-child(2) {
+    width: 240px; /* Defina a largura desejada */
+    min-width: 60px; /* Garante que não fique menor que isso */
+    max-width: 300px; /* Limita a largura máxima */
+  }
+
+  .table th:nth-child(4),
+  .table td:nth-child(4) {
+    width: 50px; /* Defina a largura desejada */
+    min-width: 50px; /* Garante que não fique menor que isso */
+    max-width: 68px; /* Limita a largura máxima */
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 412px) {
   .container {
       padding: 10px 5px;
-      font-size: 0.9rem;
+      font-size: 0.8rem; /* Ajustei um pouco a fonte do container */
   }
 
   .table {
       display: block;
-      overflow-x: auto;
+      overflow-x: auto; /* Garante a barra de rolagem horizontal */
+      width: auto; /* Alterado para auto para se ajustar ao conteúdo */
+      max-width: none; /* Removido o max-width para permitir expansão */
   }
 
   .table thead {
@@ -118,24 +151,52 @@
   }
 
   .table thead th {
-      min-width: 80px;
-      font-size: 0.7rem;
-      padding: 8px 5px;
+      min-width: 60px; /* Reduzi a largura mínima para telas menores */
+      font-size: 0.6rem; /* Reduzi a fonte do cabeçalho */
+      padding: 6px 3px; /* Reduzi o padding do cabeçalho */
+      white-space: nowrap; /* Impede que o texto do cabeçalho quebre */
   }
 
   .table tr {
       display: table-row;
-  }
+       
+    }
 
   .table th,
   .table td {
-      min-width: 80px; 
-      padding: 8px 5px;
-      font-size: 0.7rem;
-      white-space: nowrap; 
+    max-width: 140px;/* ALTERA O TAMANHO DA TABELA */ 
+      padding: 6px 3px; /* Reduzi o padding das células */
+      font-size: 0.55rem; /* Reduzi a fonte das células */
+      white-space: wrap; /* Impede que o texto das células quebre */
+      line-height: 1.5;
+  }
+  .table th:nth-child(1),
+  .table td:nth-child(1) {
+    width: 45px; /* Defina a largura desejada */
+    min-width: 40px; /* Garante que não fique menor que isso */
+    max-width: 60px; /* Limita a largura máxima */
+    display: none;
+  }
+  .table th:nth-child(3),
+  .table td:nth-child(3) {
+    width: 40px; /* Defina a largura desejada */
+    min-width: 40px; /* Garante que não fique menor que isso */
+    max-width: 68px; /* Limita a largura máxima */
+  }
+  .table th:nth-child(2),
+  .table td:nth-child(2) {
+    width: 240px; /* Defina a largura desejada */
+    min-width: 60px; /* Garante que não fique menor que isso */
+    max-width: 300px; /* Limita a largura máxima */
   }
 
+  .table th:nth-child(4),
+  .table td:nth-child(4) {
+    width: 50px; /* Defina a largura desejada */
+    min-width: 50px; /* Garante que não fique menor que isso */
+    max-width: 68px; /* Limita a largura máxima */
+  }
   .heading {
-      font-size: 1rem;
+      font-size: 0.9rem; /* Ajustei um pouco a fonte do título */
   }
 }
