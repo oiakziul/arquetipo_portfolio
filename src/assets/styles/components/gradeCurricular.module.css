@@ -103,6 +103,7 @@
       font-size: 0.75rem; /* Reduzi a fonte das células */
       white-space: nowrap; /* Impede que o texto das células quebre */
       min-width: 80px; /* Garante uma largura mínima para cada coluna */
+      font-weight: 700;
   }
 
   .heading {
