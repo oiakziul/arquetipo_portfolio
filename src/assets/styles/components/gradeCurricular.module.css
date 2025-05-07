@@ -133,7 +133,7 @@
   }
 }
 
-@media (max-width: 412px) {
+@media (min-width: 1px) and (max-width: 720px) {
   .container {
       padding: 10px 5px;
       font-size: 0.8rem; /* Ajustei um pouco a fonte do container */
