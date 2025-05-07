@@ -104,7 +104,9 @@
       white-space: nowrap; /* Impede que o texto das células quebre */
       min-width: 80px; /* Garante uma largura mínima para cada coluna */
   }
-
+  .table td {
+    font-size: 0.95rem;
+  }
   .heading {
       font-size: 1.1rem; /* Ajustei um pouco a fonte do título */
   }
