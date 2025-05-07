@@ -29,7 +29,7 @@
   margin: 20px auto;
   position: static;
   cursor: pointer;
-  box-sizing: border-box; 
+  box-sizing: border-box;  
 }
 
 .table thead th {
