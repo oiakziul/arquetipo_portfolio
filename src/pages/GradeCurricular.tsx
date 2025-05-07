@@ -4,7 +4,6 @@ export const GradeCurricular = () => {
   return (
     <div className={styles.container}>
             <p className='aviso' style={{color:'white'}}> Experimente mudar a orientação da tela.</p>
-            <br />
       <table className={styles.table}>
         <thead>
           <tr>
