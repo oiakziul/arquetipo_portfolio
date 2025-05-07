@@ -154,10 +154,10 @@
   }
 
   .table thead th {
-      min-width: 60px; /* Reduzi a largura mínima para telas menores */
-      font-size: 0.62rem; /* Reduzi a fonte do cabeçalho */
-      padding: 6px 3px; /* Reduzi o padding do cabeçalho */
-      white-space: nowrap; /* Impede que o texto do cabeçalho quebre */
+      min-width: 60px; 
+      font-size: 0.62rem; 
+      padding: 6px 3px; 
+      white-space: nowrap; 
   }
 
   .table tr {
@@ -167,40 +167,40 @@
 
   .table th,
   .table td {
-    max-width: 140px;/* ALTERA O TAMANHO DA TABELA */ 
-      padding: 6px 3px; /* Reduzi o padding das células */
-      font-size: 0.55rem; /* Reduzi a fonte das células */
-      white-space: wrap; /* Impede que o texto das células quebre */
+    max-width: 140px;
+      padding: 6px 3px; 
+      white-space: wrap; 
       line-height: 1.5;
       font-size: 0.63rem;
+      font-weight: 500;
   }
   .table th:nth-child(1),
   .table td:nth-child(1) {
-    width: 45px; /* Defina a largura desejada */
-    min-width: 40px; /* Garante que não fique menor que isso */
-    max-width: 60px; /* Limita a largura máxima */
+    width: 45px; 
+    min-width: 40px; 
+    max-width: 60px; 
     display: none;
   }
   .table th:nth-child(3),
   .table td:nth-child(3) {
-    width: 40px; /* Defina a largura desejada */
-    min-width: 40px; /* Garante que não fique menor que isso */
-    max-width: 68px; /* Limita a largura máxima */
+    width: 40px; 
+    min-width: 40px; 
+    max-width: 68px; 
   }
   .table th:nth-child(2),
   .table td:nth-child(2) {
-    width: 240px; /* Defina a largura desejada */
-    min-width: 60px; /* Garante que não fique menor que isso */
-    max-width: 300px; /* Limita a largura máxima */
+    width: 240px; 
+    min-width: 60px; 
+    max-width: 300px; 
   }
 
   .table th:nth-child(4),
   .table td:nth-child(4) {
-    width: 50px; /* Defina a largura desejada */
-    min-width: 50px; /* Garante que não fique menor que isso */
-    max-width: 68px; /* Limita a largura máxima */
+    width: 50px; 
+    min-width: 50px; 
+    max-width: 68px; 
   }
   .heading {
-      font-size: 0.9rem; /* Ajustei um pouco a fonte do título */
+      font-size: 0.9rem; 
   }
 }
