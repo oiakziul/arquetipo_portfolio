@@ -26,7 +26,7 @@
     "start_url": "/arquetipo_portfolio/",
   
     "scope": "/arquetipo_portfolio/",
-    "display": "standalone", 
+    "display": "fullscreen", 
 
     "theme_color": "#121212", 
     "background_color": "#1E1E1E" 
