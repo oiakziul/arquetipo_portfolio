@@ -1,5 +1,6 @@
 .dashboardContainer {
     height: auto;
+    max-height: 100dvh;
     min-height: 100vh;
     background-color: var(--corQuaternaria);
     padding: 0.47rem 1.25rem;
@@ -10,7 +11,7 @@
 .dashboardGrid {
     display: grid;
     grid-template-columns: repeat(4, minmax(calc(25% - 1.25rem), calc(35% - 1.25rem)));
-    grid-auto-rows: minmax(17rem, 25rem);
+    grid-auto-rows: minmax(17rem, 20rem);
     justify-content: center;
     gap: 0.9375rem;
     padding-bottom: 2.8125rem;
