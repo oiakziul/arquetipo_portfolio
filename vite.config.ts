@@ -15,7 +15,7 @@ export default defineConfig({
         description: 'Meu Portfólio Pessoal SPA',
         theme_color: '#121212',
         background_color: '#1E1E1E',
-        display: 'fullscreen', 
+        display: 'standalone', 
         scope: '/arquetipo_portfolio/',
         start_url: '/arquetipo_portfolio/',
         icons: [
