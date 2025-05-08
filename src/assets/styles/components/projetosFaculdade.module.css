@@ -1,6 +1,5 @@
 .dashboardContainer {
     height: auto;
-    max-height: 100dvh;
     min-height: 100vh;
     background-color: var(--corQuaternaria);
     padding: 0.47rem 1.25rem;
