@@ -29,7 +29,6 @@
         margin-bottom: 0; 
         margin-top: -55px; 
         object-fit: cover;
-        clip-path: inset(3% 0 5% 0);
     }
 }
 
