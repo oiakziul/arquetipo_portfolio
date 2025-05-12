@@ -4,7 +4,7 @@
     padding: 1rem;
     width: 100%;
     overflow-x: auto;
-    min-height: 100vh;
+    min-height: auto; 
 }
 
 .imagemCurriculo {
@@ -19,13 +19,14 @@
 .imagemCurriculo:hover {
     border: 1px solid rgba(255, 255, 255, 0.466);
 }
+
 @media (max-width: 720px) {
     .imagemCurriculo {
         margin: -35px;
         width: 180%;
-        height: 90dvh;
-       /* margin-bottom: 40px; */
-       
+        height: 86dvh;
+        margin-bottom: 0; 
+        object-fit: cover;
     }
 }
 
@@ -33,6 +34,6 @@
     .imagemCurriculo {
         width: 80%;
         height:auto;
-        /* margin-bottom: 40px; */
+        margin-bottom: 0;
     }
 }
