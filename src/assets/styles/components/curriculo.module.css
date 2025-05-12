@@ -28,6 +28,7 @@
         height: 95.5dvh;
         margin-bottom: 0; 
         margin-top: -55px; 
+        margin-left: -35px; 
         object-fit: cover;
     }
 }
