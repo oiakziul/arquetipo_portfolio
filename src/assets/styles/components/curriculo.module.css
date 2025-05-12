@@ -1,10 +1,10 @@
 .corpoCurriculo {
+    display: flex;
     height: auto;
-    background-color: var(--corQuaternaria);
-    padding: 0.80rem ;
+    background-color: var(--corQuaternaria);    
     width: 100%;
-    overflow-x: auto;
-    min-height: auto; 
+    overflow-y: hidden;
+    padding: 1.3em;
 }
 
 .imagemCurriculo {
@@ -14,33 +14,27 @@
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 20px;
-    margin-top: 0;
+
 }
 
-.imagemCurriculo:hover {
-    border: 1px solid rgba(255, 255, 255, 0.466);
-}
 
 @media (max-width: 720px) {
+    .corpoCurriculo{
+        padding: 0;
+        margin:0;
+    }
     .imagemCurriculo {
-        margin: 0 0 0 -10px;
-        width: 180%;
-        height: 95.5dvh;
-        margin-bottom: 0; 
-        margin-top: -55px; 
-        margin-left: -35px; 
+        width: 170%;
+        height: 100%;
         object-fit: cover;
+        overflow: scroll;
     }
 }
 
 @media (min-width: 721px) and (max-width: 1300px) {
     .imagemCurriculo {
-        margin: -30px;
-        width: 180%;
-        height: 100%;
-        margin-bottom: 0; 
-        margin-top: -85px; 
+        width: 170%;
+        height: 100dvh;
         object-fit: cover;
-        clip-path: inset(5% 0 3% 0);
-    }
+     }
 }
