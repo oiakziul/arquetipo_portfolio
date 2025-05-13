@@ -54,8 +54,7 @@
         width: 155%;
         height: 85vh;
         object-fit: cover;
-        overflow: scroll;   
-          
+        overflow: scroll;    
     }
     
     .swipe {
