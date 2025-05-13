@@ -89,8 +89,7 @@
     
     .swipe {
         display: flex;
-        width: 39px;
-        height: 39px;
+     
         position: sticky;
         right: 5%;
         float: right;
