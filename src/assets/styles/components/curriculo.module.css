@@ -39,7 +39,7 @@
     .swipe {
         display: flex;
         width: 49px;
-        height: 49px;
+        height: 42px;
         position: sticky;
         margin-right: 0.4em;
         float: right;
