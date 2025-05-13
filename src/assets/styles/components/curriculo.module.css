@@ -67,7 +67,6 @@
         margin-top: -155%;
         z-index: 20;
         border-radius: 30%;
-        transition: ease-in-out 1.8s;
         transform: rotateY(180deg);
         
     }
