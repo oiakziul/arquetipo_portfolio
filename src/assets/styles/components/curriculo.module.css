@@ -52,7 +52,7 @@
 
     .imagemCurriculo {
         width: 140%;
-        height: 100 vh;
+        
         object-fit: cover;
         overflow: scroll;    
     }
