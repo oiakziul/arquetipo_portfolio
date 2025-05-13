@@ -38,7 +38,7 @@
         width: 32px;
         height: 32px;
         position: sticky;
-        right: 10%; /* Distância da direita (ajuste conforme necessário) */
+        right: 3%; /* Distância da direita (ajuste conforme necessário) */
         float: right; /* Alinha à direita dentro do container */
         margin-top: -195%; /* Ajuste para posicionar verticalmente */
         z-index: 20; /* Fica acima do conteúdo */
