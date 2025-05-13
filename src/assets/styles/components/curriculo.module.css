@@ -38,12 +38,12 @@
     
     .swipe{
         display: flex;
-        width: 32px;
-        height: 32px;
+        width: 36px;
+        height: 36px;
         position: sticky;
         right: 7%; /* Distância da direita (ajuste conforme necessário) */
         float: right; /* Alinha à direita dentro do container */
-        margin-top: -150%; /* Ajuste para posicionar verticalmente */
+        margin-top: -200%; /* Ajuste para posicionar verticalmente */
         z-index: 20; /* Fica acima do conteúdo */
         border-radius: 30%;
         transform: rotateY(180deg);     
@@ -61,8 +61,7 @@
     }
 
     .imagemCurriculo {
-        width: 155%;
-        height: 85dvh;
+        width: 100%;
         object-fit: cover;
         overflow: scroll;     
     }
