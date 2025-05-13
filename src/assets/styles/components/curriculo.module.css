@@ -28,12 +28,12 @@
         }
         .swipe {
             display: flex;
-            width: 49px;
-            height: 42px;
+            width: 40px;
+            height: 40px;
             position: sticky;
             margin-right: -1.3em;
             float: right;
-            margin-top: -155%;
+            margin-top: -147%;
             z-index: 20;
             border-radius: 30%;
             transform: rotateY(180deg);
@@ -51,20 +51,20 @@
     }
 
     .imagemCurriculo {
-        width: 155%;
-        height: 85vh;
+        width: 140%;
+        height: 100 vh;
         object-fit: cover;
         overflow: scroll;    
     }
     
     .swipe {
         display: flex;
-        width: 49px;
-        height: 46px;
+        width: 40px;
+        height: 40px;
         position: sticky;
-        margin-right: 0.6em;
+        margin-right: 3em;
         float: right;
-        margin-top: -151%;
+        margin-top: -140%;
         z-index: 20;
         border-radius: 30%;
         transform: rotateY(180deg);
