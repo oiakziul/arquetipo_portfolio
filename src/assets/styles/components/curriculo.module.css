@@ -50,18 +50,9 @@
         padding: 0.2em;
     }
 
-    /*.imagemCurriculo {
-        width: 140%;
-                    width: 195%;
-            height: 82vh;
-            object-fit: cover;
-        object-fit: cover;
-        overflow: scroll;    
-    }*/
     .imagemCurriculo {
-        
         width: 155%;
-        height: 84vh;
+        height: 85vh;
         object-fit: cover;
         overflow: scroll;  
     }
