@@ -55,7 +55,7 @@
         height: 85vh;
         object-fit: cover;
         overflow: scroll;   
-
+        filter: contrast(150%);    
     }
     
     .swipe {
