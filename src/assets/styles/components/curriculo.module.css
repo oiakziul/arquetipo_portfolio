@@ -60,8 +60,8 @@
     }*/
     .imagemCurriculo {
         
-        width: 195%;
-        height: 82vh;
+        width: 155%;
+        height: 84vh;
         object-fit: cover;
         overflow: scroll;  
     }
