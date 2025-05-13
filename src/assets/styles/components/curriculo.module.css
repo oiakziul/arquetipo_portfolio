@@ -36,6 +36,16 @@
         overflow: scroll;     
                    border: outset 4px lightblue !important;
     }
+    .imagemCurriculo {
+        overflow: scroll;
+        scrollbar-width: none;        /* Firefox */
+        -ms-overflow-style: none;     /* Internet Explorer 10+ */
+    }
+    
+    .imagemCurriculo::-webkit-scrollbar {
+        display: none;                /* Chrome, Safari e Edge */
+    }
+    
     .swipe{
         display: flex;
         width: 38px;
