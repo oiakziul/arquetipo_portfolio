@@ -19,9 +19,30 @@
     border: outset 3px lightblue;
 
 }
+@media (min-width: 100px) and (max-width: 344px) {
+           
+        .imagemCurriculo {
+            width: 195%;
+            height: 82dvh;
+            object-fit: cover;
+        }
+        .swipe {
+            display: flex;
+            width: 49px;
+            height: 42px;
+            position: sticky;
+            margin-right: -1.3em;
+            float: right;
+            margin-top: -155%;
+            z-index: 20;
+            border-radius: 30%;
+            transform: rotateY(180deg);
+        }
+        
+    }
+    
 
-
-@media (max-width: 720px) {
+    @media (min-width: 345px) and (max-width: 720px) {
     .corpoCurriculo{
         margin: 0.2em 0.6em 0.2em 0.2em;
         position: relative;
@@ -39,7 +60,7 @@
     .swipe {
         display: flex;
         width: 49px;
-        height: 42px;
+        height: 44px;
         position: sticky;
         margin-right: 0.4em;
         float: right;
@@ -47,7 +68,6 @@
         z-index: 20;
         border-radius: 30%;
         transform: rotateY(180deg);
-
     }
 
 }
