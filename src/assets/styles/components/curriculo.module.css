@@ -36,19 +36,20 @@
         overflow: scroll;     
     }
     
-    .swipe{
+    .swipe {
         display: flex;
         width: 39px;
         height: 39px;
         position: sticky;
-        right: 5%; /* Distância da direita (ajuste conforme necessário) */
-        float: right; /* Alinha à direita dentro do container */
-        margin-top: -199%; /* Ajuste para posicionar verticalmente */
-        z-index: 20; /* Fica acima do conteúdo */
+        margin-right: 8px;
+        float: right;
+        margin-top: -155%;
+        z-index: 20;
         border-radius: 30%;
-        transform: rotateY(180deg);     
+        transform: rotateY(180deg);
 
     }
+
 }
 
 
@@ -66,17 +67,19 @@
         overflow: scroll;     
     }
     
-    .swipe{
+    .swipe {
         display: flex;
-        width: 38px;
-        height: 38px;
+        width: 39px;
+        height: 39px;
         position: sticky;
-        right: 3%; /* Distância da direita (ajuste conforme necessário) */
-        float: right; /* Alinha à direita dentro do container */
-        margin-top: -190%; /* Ajuste para posicionar verticalmente */
-        z-index: 20; /* Fica acima do conteúdo */
+        right: 5%;
+        float: right;
+        margin-top: -199%;
+        z-index: 20;
         border-radius: 30%;
-        transform: rotateY(180deg);     
-
+        transform: rotateY(180deg) translateZ(0);
+        box-sizing: border-box;
+        outline: none;
     }
+    
 }
