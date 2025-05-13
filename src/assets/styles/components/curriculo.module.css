@@ -25,7 +25,7 @@
         margin:0;
     }
     .imagemCurriculo {
-        width: 162%;
+        width: 160%;
         height: 92%;
         object-fit: cover;
         overflow: scroll;        
