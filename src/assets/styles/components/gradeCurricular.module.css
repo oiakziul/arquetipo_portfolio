@@ -84,6 +84,9 @@
       padding: 15px 10px;
       font-size: 0.9rem; /* Ajustei um pouco a fonte do container */
   }
+  .aviso{
+    font-size: 1em;
+  }
   .table {
     width: auto; /* Alterado para auto para se ajustar ao conteúdo */
     max-width: none; /* Removido o max-width para permitir expansão */

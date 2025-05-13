@@ -3,7 +3,7 @@ import styles from '../assets/styles/components/gradeCurricular.module.css';
 export const GradeCurricular = () => {
   return (
     <div className={styles.container}>
-            <h2 style={{color:'white', fontSize:'1.3m'}}> Experimente mudar a orientação da tela.</h2>
+            <h2 className='aviso' style={{color:'white'}}> Experimente mudar a orientação da tela.</h2>
       <table className={styles.table}>
         <thead>
           <tr>
