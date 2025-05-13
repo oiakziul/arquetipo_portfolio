@@ -34,7 +34,7 @@
         height: 92%;
         object-fit: cover;
         overflow: scroll;     
-        clip-path: inset(0 0 28px 0);            border: outset 4px lightblue !important;
+                   border: outset 4px lightblue !important;
     }
     .swipe{
         display: flex;
