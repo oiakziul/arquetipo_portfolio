@@ -16,7 +16,7 @@
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 20px;
-    border: outset 2px whitesmoke;
+    border: outset 2px var( --gradienteHover);
 
 }
 
