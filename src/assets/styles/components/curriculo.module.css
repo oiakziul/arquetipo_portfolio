@@ -41,9 +41,9 @@
         width: 39px;
         height: 39px;
         position: sticky;
-        right: 7%; /* Distância da direita (ajuste conforme necessário) */
+        right: 5%; /* Distância da direita (ajuste conforme necessário) */
         float: right; /* Alinha à direita dentro do container */
-        margin-top: -197%; /* Ajuste para posicionar verticalmente */
+        margin-top: -199%; /* Ajuste para posicionar verticalmente */
         z-index: 20; /* Fica acima do conteúdo */
         border-radius: 30%;
         transform: rotateY(180deg);     
