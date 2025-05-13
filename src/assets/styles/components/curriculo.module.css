@@ -52,7 +52,7 @@
 
     .imagemCurriculo {
         width: 155%;
-        height: 85vh;
+        height: 86vh;
         object-fit: cover;
         overflow: scroll;     
     }
@@ -64,7 +64,7 @@
         position: sticky;
         margin-right: 0.6em;
         float: right;
-        margin-top: -155%;
+        margin-top: -151%;
         z-index: 20;
         border-radius: 30%;
         transform: rotateY(180deg);
