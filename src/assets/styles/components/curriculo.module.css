@@ -6,7 +6,7 @@
     overflow-y: hidden;
     padding: 1.3em;
 }
-.swipeLfet{
+.swipe{
     display: none;
 }
 .imagemCurriculo {
@@ -16,6 +16,7 @@
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 20px;
+    border: outset 2px black;
 
 }
 
