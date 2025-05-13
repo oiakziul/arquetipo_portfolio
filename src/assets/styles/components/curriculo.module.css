@@ -62,12 +62,14 @@
         width: 49px;
         height: 46px;
         position: sticky;
-        margin-right: 0.4em;
+        margin-right: 0.6em;
         float: right;
         margin-top: -155%;
         z-index: 20;
         border-radius: 30%;
+        transition: ease-in-out 1.8s;
         transform: rotateY(180deg);
+        
     }
 
 }
@@ -92,7 +94,7 @@
         width: 39px;
         height: 39px;
         position: sticky;
-        right: 5%;
+        margin-right: 0.6em;
         float: right;
         margin-top: -199%;
         z-index: 20;
