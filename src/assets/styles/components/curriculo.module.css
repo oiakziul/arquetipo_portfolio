@@ -23,7 +23,7 @@
            
         .imagemCurriculo {
             width: 195%;
-            height: 82dvh;
+            height: 82vh;
             object-fit: cover;
         }
         .swipe {
