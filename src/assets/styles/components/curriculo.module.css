@@ -43,6 +43,7 @@
         margin-top: -190%; /* Ajuste para posicionar verticalmente */
         z-index: 20; /* Fica acima do conteúdo */
         border-radius: 30%;
+        transform: rotateY(180deg);     
     }
 }
 
