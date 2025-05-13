@@ -44,15 +44,15 @@
 
     @media (min-width: 345px) and (max-width: 720px) {
     .corpoCurriculo{
-        margin: 0.2em 0.6em 0.2em 0.2em;
+        margin: 0.1em 0.6em 0.1em 0.1em;
         position: relative;
         z-index: 0;
-        padding: 0.2em;
+        padding: 0.1em;
     }
 
     .imagemCurriculo {
-        width: 155%;
-        height: 86vh;
+        width: 158%;
+        height: 86.4vh;
         object-fit: cover;
         overflow: scroll;     
     }
