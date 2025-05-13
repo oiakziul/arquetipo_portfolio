@@ -8,6 +8,7 @@ export const Curriculo = () => {
             <div>
                 <img className={styles.imagemCurriculo} src={curriculo} alt="Curriculo" />
                 <img className={styles.swipe} src={LeftRight} />
+                <img src="https://i.imgur.com/gFYfTTe.gif" alt="Swipe Esquerda e Direita" />
             </div>
         </main>
     );
