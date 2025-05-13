@@ -22,11 +22,10 @@
 
 @media (max-width: 720px) {
     .corpoCurriculo{
-        padding: 0;
         margin:0;
         position: relative;
         z-index: 0;
-        padding: 0.4em;
+        padding: 0.3em;
     }
     .imagemCurriculo {
         width: 160%;
