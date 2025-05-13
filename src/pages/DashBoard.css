@@ -4,21 +4,12 @@
   --fonteTitulo: 'Poppins', sans-serif;
   --fonteTexto: 'Inter', sans-serif;
 
-  /* Paleta de Cores - Fundo */
-  --corPrimaria: #121212; /* Preto profundo para o fundo principal */
-  --corSecundaria: #1E1E1E; /* Cinza muito escuro para elementos secundários */
-  --corTerciaria: #282828; /* Cinza escuro para elementos terciários */
-  --corQuaternaria: #333333; /* Cinza médio para elementos quaternários */
-  --corQuinta: #444444; /* Cinza um pouco mais claro para elementos quíntuplos */
-
-  /* Tons de Cinza Claro */
-  --corCinzaClaro: #E0E0E0; /* Cinza claro */
-  --corCinzaMuitoClaro: #F5F5F5; /* Cinza muito claro */
-  --corCinzaNeumorfismo: #BEBEBE; /* Cinza para efeito neumorfismo */
-
-  /* Tons Metálicos */
-  --corMetalicaPrataEscuro: #5A5A5A; /* Cinza metálico escuro */
-  --corMetalicaCinza: #7A7A7A; /* Cinza metálico claro */
+/* Paleta de Cores - Fundo - Inspirada no Firefox Modo Escuro (Bem Escura) */
+--corPrimaria: #121417; /* Cinza bem escuro para o fundo principal */
+--corSecundaria: #1A1E22; /* Um pouco mais claro para elementos secundários */
+--corTerciaria: #23282E; /* Um tom ainda mais claro para diferenciar outros elementos */
+--corQuaternaria: #333A44; /* Cinza médio para detalhes ou separadores */
+--corQuinta: #424B56; /* Um cinza mais claro para elementos menos importantes */
 
   /* Paleta de Cores - Texto */
   --corTextoPrimario: #FFFFFF; /* Branco para texto primário */
