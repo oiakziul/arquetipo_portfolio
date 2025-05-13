@@ -35,12 +35,12 @@
     }
     .swipe{
         display: flex;
-        width: 36px;
-        height: 36px;
+        width: 38px;
+        height: 38px;
         position: sticky;
         right: 3%; /* Distância da direita (ajuste conforme necessário) */
         float: right; /* Alinha à direita dentro do container */
-        margin-top: -195%; /* Ajuste para posicionar verticalmente */
+        margin-top: -190%; /* Ajuste para posicionar verticalmente */
         z-index: 20; /* Fica acima do conteúdo */
         border-radius: 30%;
     }
