@@ -50,13 +50,21 @@
         padding: 0.2em;
     }
 
-    .imagemCurriculo {
+    /*.imagemCurriculo {
         width: 140%;
-        
+                    width: 195%;
+            height: 82vh;
+            object-fit: cover;
         object-fit: cover;
         overflow: scroll;    
+    }*/
+    .imagemCurriculo {
+        
+        width: 195%;
+        height: 82vh;
+        object-fit: cover;
+        overflow: scroll;  
     }
-    
     .swipe {
         display: flex;
         width: 40px;
