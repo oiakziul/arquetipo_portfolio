@@ -5,9 +5,10 @@
     width: 100%;
     overflow-y: hidden;
     padding: 1.3em;
-    
 }
-
+.swipeLfet{
+    display: none;
+}
 .imagemCurriculo {
     display: flex;
     width: 50%;
@@ -23,12 +24,25 @@
     .corpoCurriculo{
         padding: 0;
         margin:0;
+        position: relative;
+        z-index: 0;
     }
     .imagemCurriculo {
         width: 160%;
         height: 92%;
         object-fit: cover;
         overflow: scroll;        
+    }
+    .swipeLfet{
+        display: flex;
+        width: 32px;
+        height: 32px;
+        position: sticky;
+        right: 10%; /* Distância da direita (ajuste conforme necessário) */
+        float: right; /* Alinha à direita dentro do container */
+        margin-top: -195%; /* Ajuste para posicionar verticalmente */
+        z-index: 20; /* Fica acima do conteúdo */
+        border-radius: 30%;
     }
 }
 
