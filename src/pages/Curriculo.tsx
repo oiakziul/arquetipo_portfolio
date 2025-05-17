@@ -10,7 +10,7 @@ export const Curriculo = () => {
         <main className={styles.corpoCurriculo}>
             <div>
                 <img className={styles.imagemCurriculo} src={curriculo} alt="Curriculo" />
-                <img style={{}} className={styles.swipe} src={LeftRight} />
+                <img className={styles.swipe} src={LeftRight} />
                {/*  <PdfViewer className={styles.imagemCurriculo}  pdfUrl={pdfPath} /> PDF funcionando*/}
             </div>
         </main>
