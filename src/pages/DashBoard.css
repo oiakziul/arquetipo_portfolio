@@ -67,7 +67,19 @@ user-select: none;
 -webkit-tap-highlight-color: transparent;
 -webkit-touch-callout: none; 
 }
+.react-pdf__Page,
+.react-pdf__Page *,
+.react-pdf__Document,
+.react-pdf__Document * {
+  user-select: text !important;
+}
 
+/* Estilo para seleção dentro do PDF */
+.react-pdf__Page ::selection,
+.react-pdf__Document ::selection {
+  background: rgba(52, 152, 219, 0.3);
+  color: inherit;
+}
 .body {
   font-size: 1rem;
   color: var(--corTextoPrimario);

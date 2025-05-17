@@ -10,6 +10,7 @@ pdfjs.GlobalWorkerOptions.workerSrc = `https://unpkg.com/pdfjs-dist@${pdfjs.vers
 interface PdfViewerProps {
   pdfUrl: string;
   className?: string;
+  style?: React.CSSProperties;
 }
 
 export const PdfViewer: React.FC<PdfViewerProps> = ({ pdfUrl, className }) => {
@@ -77,7 +78,7 @@ export const PdfViewer: React.FC<PdfViewerProps> = ({ pdfUrl, className }) => {
     </div>
   );
 
-  return (
+   return (
     <div className={`${styles.pdfViewer} ${className || ''}`}>
       <div className={styles.pdfDocument}>
         <Document
@@ -94,29 +95,32 @@ export const PdfViewer: React.FC<PdfViewerProps> = ({ pdfUrl, className }) => {
         </Document>
       </div>
       
-      <div className={styles.pdfControls}>
-        <button 
-          onClick={goToPrevPage}
-          disabled={pageNumber <= 1}
-          aria-label="Página anterior"
-          className={styles.navButton}
-        >
-          &larr; Anterior
-        </button>
-        
-        <span className={styles.pageCounter}>
-          Página {pageNumber} de {numPages || '--'}
-        </span>
-        
-        <button 
-          onClick={goToNextPage}
-          disabled={!numPages || pageNumber >= numPages}
-          aria-label="Próxima página"
-          className={styles.navButton}
-        >
-          Próxima &rarr;
-        </button>
-      </div>
+      {/* Mostrar controles apenas se tiver mais de uma página */}
+      {numPages && numPages > 1 && (
+        <div className={styles.pdfControls}>
+          <button 
+            onClick={goToPrevPage}
+            disabled={pageNumber <= 1}
+            aria-label="Página anterior"
+            className={styles.navButton}
+          >
+            &larr; 
+          </button>
+          
+          <span className={styles.pageCounter}>
+            Página {pageNumber} de {numPages}
+          </span>
+          
+          <button 
+            onClick={goToNextPage}
+            disabled={pageNumber >= numPages}
+            aria-label="Próxima página"
+            className={styles.navButton}
+          >
+            &rarr;
+          </button>
+        </div>
+      )}
     </div>
   );
 };
